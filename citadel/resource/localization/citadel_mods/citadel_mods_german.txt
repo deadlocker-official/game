@@ -1,0 +1,1141 @@
+﻿"lang"
+{
+	"Language"		"german"
+	"Tokens"
+	{
+
+		//-----------------------------------------------------------------------------
+		// Upgrades: Weapon
+		//-----------------------------------------------------------------------------
+
+		//Basic Magazine
+		//"upgrade_clip_size_desc"			"Increases <span class=\"highlight\">ammo</span>."
+
+		//Extended Magazine
+		//"upgrade_clip_size_fixed_desc"		"Increases <span class=\"highlight\">ammo</span>."
+
+		//Extra Large Magazine
+		//"upgrade_clip_size_fixed_t3_desc"		"Greatly Increases <span class=\"highlight\">ammo</span>."
+
+		//Big Clip
+		//"upgrade_clip_size_2_desc"			"Big Increase <span class=\"highlight\">ammo</span>."
+
+		//Extra Large Magazine
+		//"upgrade_clip_size_3_desc"			"Greatly Increases <span class=\"highlight\">ammo</span>."
+
+		//Ammo Scavenger
+		"upgrade_ammo_scavenger_desc"		"Immer wenn Du eine Seelenessenz einer getöteten Einheit einfängst oder denyst, erhältst Du <span class=\"highlight\">Munition</span> zurück und profitierst von sich aufsummierender <span class=\"highlight\">Magiekraft</span>.<br>Wenn Du die max. Instanzen erreicht hast, erhältst Du stattdessen zusätzliches Sprinttempo."
+		"AmmoPerSoul_prefix"				"+"
+		"AmmoPerSoul_label"					"Kugeln pro Seelenessenz"
+		"SpiritPowerPerSoul_prefix"			"+"
+		"SpiritPowerPerSoul_label"			"Magiekraft pro Seelenessenz"
+		"AmmoScavengerDuration_label"		"Dauer"
+		"AmmoScavengerDuration_postfix"		" s"
+
+		//Stabilizer
+		//"upgrade_stabilizer_desc"		"Removes the <span class=\"highlight\">move speed penalty</span> while shooting, and increases <span class=\"highlight\">bullet speed</span>."
+
+		//Melee Lifesteal
+		"upgrade_lifestrike_gauntlets_desc"	"Dein nächster <span class=\"highlight\">Nahkampfangriff</span> <span class=\"highlight\">heilt Dich</span>. Angriffe gegen Nicht-Helden gewähren {s:NonHeroHealPct} % der Heilung."
+		"LifestrikeHeal_label"				"Heilung bei Nahkampftreffer"
+		//Tesla Bullets
+		"upgrade_chain_lightning_desc"	"Deine Kugeln haben eine Chance, Dein Ziel zu <span class=\"highlight\">schocken</span>. Der <span class=\"highlight\">Schock</span> spring auf einen Gegner in der Nähe über."
+
+		//Galvanic Storm
+		//"upgrade_galvanic_storm_passive1"	"Your bullets have a chance to <span class=\"highlight\">shock</span> your target.  The shock will jump to a nearby enemy."
+		//"upgrade_galvanic_storm_passive2"	"When your spirit barrier is destroyed, you are empowered, granting <span class=\"highlight\">{s:BuffDamageMult}x shock damage</span> and increased <span class=\"highlight\">move speed</span>"
+		//"BuffDamageMult_label"							"Shock Multiplier"
+		//"BuffDamageMult_postfix"							"x"
+		"GalvanicBuffDuration_label"						"Dauer"
+		"GalvanicBuffDuration_postfix"					" s"
+
+		//Fire Rate
+		//"upgrade_attack_speed_1_desc"	"Increases your <span class=\"highlight\">Fire Rate</span>."
+
+		//Basic Fire Rate
+		//"upgrade_small_attack_speed_desc"	"Increases your <span class=\"highlight\">Fire Rate</span>."
+
+		//Silence Glyph
+		"upgrade_targeted_silence_desc"	"Feuert ein sich ausbreitendes Projektil ab, das Gegner für eine kurze Zeit <span class=\"highlight\">verstummen</span> lässt. Das Projektil reduziert auch die <span class=\"highlight\">Magieresistenz</span> und <span class=\"highlight\">Magiekraft</span> von betroffenen Gegnern für eine bestimmte Dauer.<br><br><span class=\"diminish\">Die Verstummung bricht kanalisierende Fähigkeiten nicht ab.</span>"
+		"ResistReductionDuration_label"	"Dauer der Resistenzreduzierung"
+		"ResistReductionDuration_postfix"	" s"
+
+		//EMP Bullets
+		"upgrade_proc_silence_desc"		"Wenn Du Gegnern die benötigte Anzahl aufeinanderfolgender Treffer mit Deinen Kugeln zufügst, werden diese mit einem Schwächungseffekt belegt, der sie <span class=\"highlight\">verstummen</span> lässt. Betroffene Gegner sind für <span class=\"highlight\">{s:ImmunityDuration} s</span> nach dem Ablauf des Effekts dagegen immun."
+		"upgrade_proc_silence_debuff_desc"		"Deine Kugeln reduzieren den <span class=\"highlight\">ausgehenden Magieschaden</span> des Ziels."
+		"proc_silence_buildup"			"Verstummung wird aufgebaut …"
+		"modifier_citadel_silence_proc_tech_damage_reduction"	"Magieschaden reduziert"
+
+		//Silencer
+		"upgrade_silencer_active"		"Für die nächsten {s:AbilityDuration} s lassen <span class=\"highlight\">alle Deine Kugeln Dein Ziel sofort verstummen</span>. Verstummte Ziele können keine Fähigkeiten einsetzen."
+		//"upgrade_silencer_passive1"		"Your bullets deal <span class=\"highlight\">+{s:BonusBulletDamageToEMPTargets}% damage to Silenced targets</span>."
+		//"upgrade_silencer_passive2"		"Your bullets build up an <span class=\"highlight\">EMP</span> on enemy heroes, preventing them from using abilities."
+		//"SilencerSlowPercent_label"		"Bullet Slow Proc"
+		//"SilencerSlowPercent_postfix"	"%"
+		//"SilencerSlowPercent_prefix"	"+"
+
+		//Magitech Rounds
+		//"upgrade_proc_tech_damage_desc"	"Your bullets also deal your <span class=\"highlight\">base bullet damage [{s:BaseDamagePerShot}] </span> as spirit damage.  Magitech Rounds receives <span class=\"highlight\">{s:SpellAmplificationMultiplier}x</span> amplification from <span class=\"highlight\">Spirit Power</span>. Shotguns split the damage between each pellet. This effect can only happen once every {s:ProcCooldown}s."
+		
+		//Slowing Bullets
+		"upgrade_slowing_bullets_desc"	"Wenn Du Gegnern die benötigte Anzahl aufeinanderfolgender Treffer mit Deinen Kugeln zufügst, werden diese mit einem Schwächungseffekt belegt, der deren <span class=\"highlight\">Bewegungstempo</span> verlangsamt."
+		"upgrade_slowing_bullets/modifier_slowing_bullets_proc/modifier_slow_base"					"Verlangsamt"
+
+		//Inhibitor
+		"upgrade_inhibitor_desc"	"Deine Kugeln reduzieren den <span class=\"highlight\">ausgehenden Magieschaden</span> und die <span class=\"highlight\">Heilungseffektivität</span> des Ziels."
+		"modifier_inhibitor_debuff"	"Inhibitor"
+		"OutgoingDamagePenaltyPercent_label"	"Schadensmalus"
+		"OutgoingDamagePenaltyPercent_postfix"	" %"
+
+		//Armor Piercing Rounds
+		//"upgrade_armor_reduction_debuff_desc"	"Your bullets reduce the target's <span class=\"highlight\">bullet resistance by {s:ResistReduction}%</span> of their current value for {s:AbilityDuration}s and deal bonus damage <span class=\"highlight\">against bullet shields</span>."
+		//"modifier_armor_breaking_bullets"	"Armor Piercing Rounds"
+		
+		//Detention Rounds
+		//"upgrade_weapon_detention_ammo_desc"	"Your bullets build up on enemies, causing them to be <span class=\"highlight\">tethered</span> to their position."
+		//"modifier_upgrade_detention_ammo_detaining"				"Detaining..."
+		//"Detained"	"Detained"
+		//"detention_immune"		"Detention Immune"
+		//"ImmunityDuration_label"		"Immunity Duration"
+		//"ImmunityDuration_postfix"	"s"
+
+		//Leveler
+		//"upgrade_leveler_active_desc"	"Applies a <span class=\"highlight\">tether</span> to the target and reduces the <span class=\"highlight\">bullet resist</span> of both <span class=\"highlight\">you and them</span>."
+		//"upgrade_leveler_passive_desc"				"Your headshot deals bonus damage and heavily slows enemy fire rate."
+		//"upgrade_leveler_innate_desc"	"Close Range<br>Detention Rounds"
+
+		//Hunter's Aura
+		"upgrade_bullet_armor_reduction_aura_desc"		"Reduziert die <span class=\"highlight\">Kugelresistenz</span> und <span class=\"highlight\">Feuerrate</span> von Gegnern in der Nähe. Falls sich nur ein Gegner in der Nähe befindet, wird dieser <span class=\"highlight\">Effekt verdreifacht</span>."
+		//"modifier_bullet_armor_reduction"							"Bullet Resist Reduced"
+		//"upgrade_bullet_armor_reduction_aura/modifier_bullet_armor_reduction_aura/modifier_bullet_armor_reduction"	"Bullet Armor Reduced"
+
+		//Adrenaline Rush
+		//"upgrade_nearby_enemy_boost_desc"	"Gain bonus <span class=\"highlight\">Weapon Damage</span> and <span class=\"highlight\">Fire Rate</span> when there are two or more enemy heroes nearby."
+
+		//Heroic Aura
+		"upgrade_dps_aura_active_desc"	"Gewährt Dir und Deinen Verbündeten <span class=\"highlight\">{g:citadel_inline_attribute:'MoveSpeed'}</span> und <span class=\"highlight\">{g:citadel_inline_attribute:'FireRate'}</span>. <span class=\"highlight\">Infanteristen</span> erhalten den doppelten Wert."
+		"upgrade_dps_aura_desc"			"Gewährt verbündeten Einheiten in der Nähe <span class=\"highlight\">Kugelresistenz</span>."		
+		"modifier_dps_aura_active"		"Heroische Aura aktiv"
+		"modifier_dps_aura_player"		"Feuerrate während Heroische Aura"
+
+		//"BonusBaseDamage_label"			"Base Bullet and Melee Damage"
+		"BonusBaseDamage_postfix"		" %"
+
+		//Fire Rate Aura
+		//"upgrade_fire_rate_aura_desc"	"Provides a <span class=\"highlight\">Fire Rate</span> increase to you and nearby teammates.  Different bonus to non-Heroes"
+		//"upgrade_fire_rate_aura/modifier_fire_rate_aura/modifier_fire_rate_aura_target"		"Fire Rate Aura"
+
+		//Warp Stone
+		"upgrade_warp_stone_desc"	"<span class=\"highlight\">Teleportiert</span> Dich in Blickrichtung und gewährt Dir <span class=\"highlight\">Kugelresistenz</span>."
+		"WarpStoneRange_label"		"Teleportationsreichweite"
+		"WarpStoneRange_postfix"		" m"
+		"modifier_warp_stone_caster"	"Teleportationsstein"
+		"CasterBuffDuration_label"	"Stärkungsdauer"
+		"CasterBuffDuration_postfix"	" s"
+		//"CasterSlowPercent_label"		"Self Slow"
+		"CasterSlowPercent_postfix"	" %"
+
+		//Torment Pulse
+		"upgrade_tech_damage_pulse_desc"	"Fügt den zwei nächsten Gegnern im Umkreis regelmäßig <span class=\"highlight\">Magieschaden</span> zu."
+
+		//Mystic Burst
+		"upgrade_magic_burst_desc"	"Fähigkeiten, die mehr als <span class=\"highlight\">{s:MinimumDamage}</span> Schaden zufügen, fügen auch zusätzlich {g:citadel_inline_attribute:'BonusSpiritDamage'} zu. Der max. Bonusschaden wird nach einer bestimmten Dauer erreicht."
+		"MagicBurstDamage_label"		"Bonusschaden"
+
+		//Improved Burst
+		"upgrade_magic_shock_desc"	"Fähigkeiten, die mehr als <span class=\"highlight\">{s:MinimumDamage}</span> Schaden zufügen, fügen auch zusätzlich {g:citadel_inline_attribute:'BonusSpiritDamage'} zu. Der max. Bonusschaden wird nach einer bestimmten Dauer erreicht."
+		"MagicShockDamage_label"		"Bonusschaden (max. LP)"
+		"MagicShockDamage_postfix"	" %"
+
+		//Mystic Reverb
+		"upgrade_tech_bleed_desc" "Veredelt eine Fähigkeit, wodurch ein getroffenes Ziel <span class=\"highlight\">verlangsamt</span> wird und Gegner im Umkreis des Ziels nach einer kurzen Verzögerung einen <span class=\"highlight\">zusätzlichen Prozentsatz des zugefügten Schadens</span> erleiden."
+		//"upgrade_tech_bleed/modifier_tech_bleed_proc/modifier_tech_bleed"			"Spirit Echo"	
+
+		//Toxic Bullets
+		"upgrade_toxic_bullets_desc"	"Wenn Du Gegnern die benötigte Anzahl aufeinanderfolgender Treffer mit Deinen Kugeln zufügst, <span class=\"highlight\">bluten diese aus</span> und erleiden kontinuierlich <span class=\"highlight\">einen Prozentsatz</span> ihrer <span class=\"highlight\">max. Lebenspunkte</span> als Schaden. Reduziert auch die <span class=\"highlight\">Heilung</span> des ausblutenden Ziels."
+		"upgrade_toxic_bullets_buildup"					"Gift wird zugefügt …"
+		"upgrade_bleeding_bullets_buildup"				"Ausbluten wird zugefügt …"
+		//"upgrade_hemorrhage_buildup"					"Eviscerator building..."
+		//"upgrade_bleeding_bullets/modifier_item_bleeding_bullets_active/modifier_item_bleeding_bullets_damageovertime"		"Serrated Bullets"
+		//"modifier_hemorrhage"																								"Eviscerator Rounds"
+		"modifier_item_burning_bullets_damageovertime" 	"Blutet aus"
+		"upgrade_hemorrhage/modifier_item_hemorrhage/modifier_hemorrhage" "Blutet aus"
+
+		//Improved Fire Rate
+		//"upgrade_attack_speed_2_desc"	"Increases your <span class=\"highlight\">Fire Rate</span>."
+
+		//Spiritual Overflow
+		"upgrade_tech_overflow_desc"	"Du erhältst zusätzliche <span class=\"highlight\">Feuerrate</span> und <span class=\"highlight\">Magiekraft</span>, wenn Du gegnerischen Helden mit Deinen Kugeln <span class=\"highlight\">die benötigte Anzahl aufeinanderfolgender Treffer</span> zufügst."
+		"modifier_tech_overflow"		"Magische Sättigung"
+		"modifier_tech_overflow_building" "Magische Sättigung nimmt zu …"
+
+		"OverflowTechPower_label"		"Magiekraft"
+		//"OverflowBonusDamage_label"     "Bonus Spirit Damage"
+		"OverflowBonusDamage_postfix"	" %"
+
+		//Drum Magazine
+		//"upgrade_drum_magazine_desc"		"Provides a large <span class=\"highlight\">ammo bonus</span>, and <span class=\"highlight\">increased reload speed</span>"
+
+		//Ricochet
+		"upgrade_ricochet_desc"		"Deine Kugeln <span class=\"highlight\">prallen ab</span> und treffen Gegner in der Nähe Deines Ziels, die ggf. die <span class=\"highlight\">Treffereffekte der Kugeln</span> sowie einen <span class=\"highlight\">Prozentsatz des ursprünglichen Schadens </span> zufügen."
+		"RicochetTargetsTooltipOnly_label"			"Querschläger-Ziele"
+		"RicochetDamagePercent_label"					"Querschläger-Schaden"
+		"RicochetDamagePercent_postfix"					" %"
+		"RicochetRadius_label"							"Querschläger-Reichweite"
+		"RicochetRadius_postfix"							" m"
+
+		//Height Advantage
+		//"upgrade_height_advantage_desc"	"Gain additional <span class=\"highlight_weapon\">{s:HighGroundBonusWeaponPower}% Weapon Damage</span> when attacking targets that are <span class=\"highlight\">below you</span>."
+
+		//Close Quarters
+		"upgrade_close_range_desc"	"Du fügst zusätzlichen <span class=\"highlight\">Waffenschaden</span> zu, wenn Du Dich in <span class=\"highlight\">unmittelbarer Nähe</span> Deines Ziels befindest."
+		"upgrade_close_quarter_combat/modifier_cqc_proc/modifier_slow_base"			"Verlangsamt"
+
+		//Long Range
+		"upgrade_long_range_desc"	"Du fügst zusätzlichen <span class=\"highlight\">Waffenschaden</span> zu, wenn Du Dich <span class=\"highlight\">jenseits der erforderlichen Mindestdistanz</span> Deines Ziels befindest."
+
+		//Mystic Shot
+		"upgrade_crackshot_desc"	"Deine nächste Kugel fügt zusätzlich <span class=\"highlight\">Magieschaden</span> zu."
+		"ProcBonusMagicDamage_prefix"	"{s:sign}"
+		"ProcBonusMagicDamage_label"	"Magieschaden"
+
+		//Ethereal Bullets
+		"upgrade_ethereal_bullets_desc"	"Deine veredelte Fähigkeit erhält {g:citadel_inline_attribute:'BonusSpiritDamage'}, {g:citadel_inline_attribute:'BonusFireRate'} und <span class=\"highlight\">lädt beim Einsatz Kugeln nach</span>. Die max. Boni werden nach einer bestimmten Dauer erreicht. Deine <span class=\"highlight\">Kugeln fügen zusätzlichen Magieschaden basierend auf Deiner Magiekraft zu</span>, bis Du das nächste Mal nachlädst."
+		"BulletsBonusMagicDamage_label"	"Grundkugel­schaden"
+		"BulletsBonusMagicDamage_prefix"	"+"
+		"BulletsBonusMagicDamage_postfix"	" %"
+
+		//Restorative Shot
+		"upgrade_medic_bullets_desc"	"Deine nächste Kugel <span class=\"highlight\">heilt</span> Dich basierend auf dem Einheitentyp, den Du triffst."
+		"HealFromHero_label"	"Heilung durch Helden"
+		"HealFromNPC_label"	 "Heilung durch NSC/Seelenessenzen"
+
+		//Point Blank
+		"upgrade_close_quarter_combat_desc"	"Du fügst zusätzlichen <span class=\"highlight\">Waffenschaden</span> zu und Deine Kugeln <span class=\"highlight\">verlangsamen das Bewegungstempo</span> Deines Gegners, wenn Du Dich in <span class=\"highlight\">unmittelbarer Nähe</span> Deines Ziels befindest."
+
+		//Headshot Booster
+		"upgrade_headshot_booster_desc"		"Du fügst zusätzlichen <span class=\"highlight\">Waffenschaden</span> bei <span class=\"highlight\">Kopfschüssen</span> zu."
+
+		//Headshot Booster
+		"upgrade_headshot_booster2_desc"		"Wenn Du einen <span class=\"highlight\">Kopfschuss</span> landest, reduziert sich die <span class=\"highlight\">Kugelresistenz</span> des Ziels."
+
+
+		//Sharpshooter
+		"upgrade_sharpshooter_desc"				"Du fügst zusätzlichen <span class=\"highlight\">Waffenschaden</span> zu, wenn Du Dich <span class=\"highlight\">jenseits der erforderlichen Mindestdistanz</span> Deines Ziels befindest."
+
+		//Headhunter
+		"upgrade_headhunter_desc"	"Ein <span class=\"highlight\">Kopfschuss</span> fügt zusätzlichen Schaden zu, heilt Dich und gewährt Dir für kurze Zeit zusätzliches Bewegungstempo."
+		"HealPercentPerHeadshot_label"		"Heilung pro Kopfschuss"
+		"HealPercentPerHeadshot_postfix"	" %"
+		"BaseHealOnHeadshot_label"			"Heilung pro Kopfschuss"
+
+		//Spellslinger Headshots
+		"upgrade_spellslinger_headshots_part1_desc"	"Deine Kugeln fügen einen Schwächungseffekt zu, der die <span class=\"highlight\">Magieresistenz</span> des Ziels reduziert und Dir und Deinen Verbündeten <span class=\"highlight\">Magielebensraub</span> gegen dieses Ziel gewährt."
+		"upgrade_spellslinger_headshots_part2_desc"	"<span class=\"highlight\">Kopfschüsse</span> reduzieren zunehmend die <span class=\"highlight\">Magieresistenz</span> des Ziels."
+		//"upgrade_spellslinger_headshots_component_passive_desc"	"<span class=\"highlight\">Soul Shredder Bullets</span> Effect"
+		"SpiritPowerGainPct_label"				"Magiekraft"
+		"SpiritPowerGainPct_postfix"			" %"
+		"SpellSlingerHeadshots_SpiritShredPerStack_label"		"Magieresistenz bei Kopfschuss"
+		"SpellSlingerHeadshots_SpiritShredPerStack_postfix"	" %"
+
+		//Crippling Headshot
+		"upgrade_banshee_slugs_headshots_desc"	"<span class=\"highlight\">Kopfschüsse</span> reduzieren die <span class=\"highlight\">Kugel- und Magieresistenz</span> und die <span class=\"highlight\">Heilungseffektivität</span> des Ziels."
+
+		//Berserker
+		"upgrade_berserker_desc"		"Dein <span class=\"highlight\">Waffenschaden</span> erhöht sich, wenn Du wiederholt Schaden erleidest."
+
+		//Frenzy
+		"upgrade_fervor_passive"	"Du erhältst Boni auf Deine Attribute, wenn Du über <span class=\"highlight\">weniger als {s:LowHealthThreshold} % Deiner Lebenspunkte</span> verfügst."
+		"FervorTechResist_postfix"  " %"
+		"modifier_fervor_aura_active"		"Rasend"
+		"FervorBulletResist_label"		"Kugelresistenz"
+		"FervorBulletResist_prefix"		"+"
+		"FervorBulletResist_postfix"	" %"
+
+
+		//Old Frenzy
+		//"upgrade_frenzy_vampire_desc"	"Your <span class=\"highlight\">bullets heal you</span> for a percentage of the damage they deal to enemies.<br><br>When an enemy is below {s:LowHealthPercentThreshold}% health you gain an additional <span class=\"highlight\">{s:LowHealthLifeStealPercent}% Bullet Lifesteal</span> against them."
+		//"upgrade_frenzy_aura_desc"		"Nearby enemies take <span class=\"highlight\">increased damage</span> from bullets.<br><br>If an enemy hero dies under this aura, you gain <span class=\"highlight\">+{s:KillBonusMoveSpeedPerStack} m/s</span>. This effect <span class=\"highlight\">lasts until you die</span> and can be stacked up to {s:MaxKillBonusMoveSpeedStack} times."
+		//"upgrade_frenzy/modifier_frenzy_lowhealth"		"Low HP Frenzy"
+		//"upgrade_frenzy/modifier_frenzy_aura/modifier_frenzy_kill"		"Killed Frenzy"
+
+		//Soul Shredder Bullets
+		"upgrade_tech_defense_shredders_desc"	"Deine Kugeln fügen einen Schwächungseffekt zu, der die <span class=\"highlight\">Magieresistenz</span> des Ziels reduziert und Dir und Deinen Verbündeten <span class=\"highlight\">Magielebensraub</span> gegen dieses Ziel gewährt."
+		"ShreddersTechAmp_label"				"Magieschadens­verstärkung"
+		"ShreddersTechAmp_postfix"			" %"
+		"modifier_tech_defense_shredders_debuff"																"Antimagische Kugeln"
+		//"upgrade_tech_defense_shredders/modifier_tech_defense_shredders_proc/modifier_base"						"Spirit Armor Reduced"
+		//"modifier_tech_defense_shredders"		"Spirit Armor Reduced"
+
+		//Monster Rounds
+		//"upgrade_non_player_bonus_desc"		"Gain additional <span class=\"highlight_weapon\">{s:NonPlayerBonusWeaponPower}% Weapon Damage</span> when attacking <span class=\"highlight\">Troopers</span>, <span class=\"highlight\">Neutrals</span> and <span class=\"highlight\">Bosses</span>."
+
+		//Hollow Point Ward
+		"upgrade_hollow_point_rounds_desc"				"Du fügst zusätzlichen <span class=\"highlight\">Waffenschaden</span> zu und Deine Kugeln reduzieren die <span class=\"highlight\">Kugelresistenz</span> von Gegnern, wenn Du über <span class=\"highlight\">mehr als {s:LifeThreshold} % der Lebenspunkte verfügst</span>."
+		//"upgrade_hollow_point_rounds_shield_desc"		"Gain a <span class=\"highlight\">Spirit Shield</span> that blocks incoming <span class=\"highlight\">Spirit Damage</span>. The shield is restored when out of combat."
+
+		// Pristine Emblem
+		"upgrade_pristine_emblem_desc"	"Deine Angriffe fügen zusätzlichen <span class=\"highlight\">Waffenschaden</span> gegen <span class=\"highlight\">Gegner</span> zu, wenn diese über <span class=\"highlight\">mehr als {s:EnemyLifeThreshold} % ihrer Lebenspunkte</span> verfügen."
+		"BaseAttackDamagePercentBonus_label"	"Waffenschaden"
+		"BaseAttackDamagePercentBonus_prefix"	"+"
+		"BaseAttackDamagePercentBonus_postfix"	" %"
+
+		//Disarming Bullets
+		//"upgrade_proc_disarm_desc"		"Your bullets <span class=\"highlight\">disarm</span> enemies, them preventing them from shooting their weapon.  Victims are immune to disarming bullets for <span class=\"highlight\">{s:ImmunityDuration}s</span> after application expires."
+
+		//Glass Cannon
+		"upgrade_glass_cannon_desc"		"Jeder Heldenkill gewährt Dir <span class=\"highlight\">dauerhafte Feuerrate</span> (summiert sich max. {s:MaxStacks}-mal auf). Beim Tod geht 1 Instanz verloren."
+		"GlassCannon_SlowPercent_label"		"Bewegungsverlangsamung bei Treffer"
+		"GlassCannon_SlowPercent_postfix"	" %"
+		"GlassCannon_SlowPercent_prefix"	"+"
+
+		//Fury Trance
+		"upgrade_fury_trance_active"	"Du erhältst <span class=\"highlight\">Feuerrate</span> und <span class=\"highlight\">Kugelresistenz</span>, wirst aber <span class=\"highlight\">verstummt</span> und kannst <span class=\"highlight\">keine Ausdauer einsetzen oder Dich regenerieren</span>."
+
+		//Vampiric Burst
+		"upgrade_surging_power_active"	"Du erhältst <span class=\"highlight\">Lebensraub</span>, <span class=\"highlight\">Feuerrate</span> und <span class=\"highlight\">Munition</span>. Diese zusätzliche Munition wird nicht durch Deine max. Magazinkapazität beschränkt."
+		"ActiveBonusLifesteal_label"		"Kugel­lebensraub"
+		"ActiveBonusLifesteal_postfix"	" %"
+		"modifier_surging_power"		 "Vampirischer Kraftstoß"
+		//"upgrade_surging_power/surge/windup"					"Surging Power"
+		//"upgrade_surging_power/surge/active"					"Surging Power"
+		//"upgrade_surging_power/surge"					"Surging Power"
+
+		//Siphon Bullets
+		//"upgrade_siphon_bullets_desc_passive1"	"When in <span class=\"highlight\">close range</span> of your target, deal additional <span class=\"highlight\">Weapon Damage</span>."
+		"upgrade_siphon_bullets_desc_passive2"	"Deine Kugeln stehlen Gegnern temporär einen <span class=\"highlight\">Prozentsatz ihrer max. Lebenspunkte</span>. Gegner erhalten ihre gestohlenen Lebenspunkte zurück, wenn der Schwächungseffekt abläuft. Du erhältst dauerhaft {s:StealPerKill} Instanzen der max. gestohlenen Lebenspunkte pro Kugel, falls das geschröpfte Ziel stirbt, und verlierst {s:StackLostPerDeath} Instanzen, falls Du stirbst."
+		"modifier_siphon_bullets_health_gain"		"Schröpfende Kugeln"
+		"modifier_siphon_bullets_health_loss"		"Schröpfende Kugeln"
+		"HealthSteal_label"						"max. gestohlene LP pro Kugel"
+
+		//Overdrive Clip
+		//"upgrade_weapon_overdrive_clip_desc"			"<span class=\"highlight\">Deal non-lethal damage based on your max health to yourself</span> and <span class=\"highlight\">reload bullets in your clip equal to your max ammo, no matter how many bullets are left.</span>  The bullets in this clip have additional <span class=\"highlight\">courage</span>."
+		//"modifier_upgrade_overdrive_clip"				"Overdrive Clip"
+		//"upgrade_weapon_overdrive_clip/modifier_upgrade_overdrive_clip_reload"		"Overdrive Reload"
+		"BonusReloadSpeed_label"						"Nachladedauer"
+		"BonusReloadSpeed_Postfix"						" %"		
+		//"OverdriveClipDuration_label"					"Clip Duration"
+		"OverdriveClipDuration_Postfix"					" s"		
+		//"modifier_item_weapon_power_for_health"		"Overdrive"
+
+		//Burst Fire Actuator
+		//"upgrade_burst_fire_actuator_desc"				"Your weapon <span class=\"highlight\"> fires an additional percentage of your gun's starting clip as a burst</span>.  If all bullets in a burst connect with an enemy Hero, <span class=\"highlight\">gain temporary Base Bullet Damage</span> for the rest of the clip."
+		//"BurstFireShotsFromClipPercent_label"			"ammo Burst"
+		"BurstFireShotsFromClipPercent_Postfix"			" %"
+		//"PerfectBurstWeaponPower_label"					"Perfect Burst Bonus Weapon Damage"
+		//"modifier_burst_fire_actuator"					"Burst Actuator"
+		"BonusHeadshotDamage_label"						"Bonusschaden bei Kopfschuss"
+		"BonusHeadshotDamage_postfix"					" %"
+		//"BaseBonusWeaponPower_label"					"Courage"
+		"BaseBonusWeaponPower_prefix"					"+"
+
+		//Lifestrike
+		"upgrade_boxing_glove_desc"						"Deine <span class=\"highlight\">Nahkampfangriffe</span> <span class=\"highlight\">verlangsamen das Bewegungstempo</span> Deines Gegners und <span class=\"highlight\">heilen</span> Dich um {s:LifestealHealPercent} % des zugefügten <span class=\"highlight\">Nahkampfschadens</span> plus {s:LifestealHeal} Lebenspunkten. Diese Heilung wirkt nur zu {s:NonHeroHealPct} % gegen Nicht-Helden."
+		//"BonusMeleeSpeed_label"							"Melee Speed"
+		"BonusMeleeSpeed_prefix"						"+"
+		"BonusMeleeSpeed_postfix"						" %"
+		"DisarmDuration_label"							"Entwaffnungsdauer"
+		"DisarmDuration_postfix"						" s"
+
+		//Belt-Fed Magazine
+		//"upgrade_belt_fed_magazine_desc"				"Your weapon gains a <span class=\"highlight\">much larger magazine that </span><span class=\"isNegative\">requires spin-up time</span>, starting with a <span class=\"highlight\">slower initial fire rate and becoming faster over the spin-up time</span>."
+		//"SpinUpTime_label"								"Spin-Up Time"
+		"SpinUpTime_postfix"							" s"
+		//"InitialFireRateDecrease_label"					"Initial Fire Rate"
+		"InitialFireRateDecrease_prefix"				"−"
+		"InitialFireRateDecrease_postfix"				" %"
+		"MaxFireRateIncrease_prefix"					"+"
+		//"MaxFireRateIncrease_label"						"Max Fire Rate"
+		"MaxFireRateIncrease_postfix"							" %"
+		//"BonusReloadTime_label"							"Added Reload Time"
+		"BonusReloadTime_postfix"						" s"
+
+		//Stabilizing Tripod
+		//"upgrade_stabilizing_tripod_desc"						"<span class=\"highlight\">Disarm yourself</span> to toss your weapon to the target location where it transforms into a <span class=\"highlight\">Field Sentry that will attack enemies using your weapon with an unlimited clip</span>.  You can melee the sentry to end the effect early."		
+		//"StationaryRecoilReduction_label"					"Less Recoil While Not Moving"
+		"StationaryRecoilReduction_postfix"					" %"
+		"StationaryWeaponPower_prefix"						"+"
+		//"StationaryWeaponPower_label"					"Courage While Not Moving"
+		//"CasterHealthPercent_label"						"Turret Health Percent of Caster"
+		"CasterHealthPercent_postfix"					" %"
+		//"modifier_stabilizing_tripod_self_debuff"				"Field Sentry"
+
+		//Burst Fire
+		"upgrade_burst_fire_desc"						"Du erhältst für kurze Zeit zusätzliche <span class=\"highlight\">Feuerrate</span> und zusätzliches <span class=\"highlight\">Bewegungstempo</span>, wenn eine Deiner Kugeln einen gegnerischen Helden trifft."
+		"upgrade_burst_fire/modifier_burst_fire_buff"	"Feuerstoß"
+	
+		//Arcane Eater
+		//"upgrade_arcane_eater_desc"					"Your bullets <span class=\"highlight\">Steal Spirit Power</span> from enemy Heroes.  Steal {s:HeadshotBonusSteal} extra Spirit Power with Headshots.  This effect stacks."
+		//"modifier_arcane_eater_debuff"					"Spirit Power Stolen"
+		//"modifier_arcane_eater_buff"					"Spirit Power Taken"
+		//"SpiritStolePerHit_label"						"Spirit Power Stolen per Hit"
+
+		//Predator Precision
+		//"upgrade_predator_precision_desc"				"Gain additional <span class=\"highlight\">weapon damage</span> against enemy Heroes that are <span class=\"highlight\">low health</span>"
+		//"modifier_predator_vision"									"Predator Vision"
+
+		//Intensifying Magazine
+		"upgrade_intensifying_clip_desc"				"Dein <span class=\"highlight\">Waffenschaden</span> erhöht sich, wenn Du Deine Waffe kontinuierlich abfeuerst."
+		"BaseAttackDamagePercentAtMaxDuration_label"	"max. Waffenschaden"
+		"BaseAttackDamagePercentAtMaxDuration_postfix"		" %"
+		"ShootDurationForMax_label"						"Dauer bis max. Schaden"
+		"ShootDurationForMax_postfix"							" s"
+		
+		//Escalating Resilience
+		"upgrade_reinforcing_casings_desc"    "Du erhältst <span class=\"highlight\">Kugelresistenz</span>, wenn eine Deiner Kugeln einen gegnerischen Helden trifft. <span class=\"highlight\">Jeder Treffer gewährt nur eine Instanz.</span>"
+		"modifier_reinforcing_casings"			"Steigende Resilienz"
+		"MaxArmorStacks_label"				"max. Kugelresistenz"
+		"MaxArmorStacks_postfix"				" %"
+		"BulletResistPerStack_label"				"Kugelresistenz pro Instanz"
+		"BulletResistPerStack_postfix"			" %"
+		"BulletResistDuration_label"				"Instanzendauer"
+		"BulletResistDuration_postfix"			" s"
+
+		//Lucky Shot
+		"upgrade_critshot_desc"				"Deine Kugeln haben eine Chance, verstärkt zu werden, wodurch sie bei einem Treffer zusätzlichen <span class=\"highlight\">Waffenschaden</span> zufügen.<br><span class=\"diminish\">Der zusätzliche Schaden wirkt nicht als kritischer Schaden.</span>"
+		"CritDamagePercent_prefix"			"+"
+		"CritDamagePercent_label"			"Bonuswaffenschaden"
+		"CritDamagePercent_postfix"			" %"
+
+		//Veil Walker
+		"upgrade_veil_walker_desc"			"Beim Durchqueren eines <span class=\"highlight\">Kosmischen Schleiers</span> wirst Du <span class=\"highlight\">getarnt</span>, <span class=\"highlight\">geheilt</span> und erhältst zusätzliches <span class=\"highlight\">Bewegungstempo</span>."
+		"VeilWalker_MoveSpeed_label"			"Bewegungstempo während Unsichtbarkeit"
+		"VeilWalker_MoveSpeed_postfix"		" m/s"
+		"VeilWalker_Heal_label"			"Heilung"
+		//Glass Cannon2
+		"upgrade_glass_cannon2_desc"		"Jeder Heldenkill gewährt Dir <span class=\"highlight\">dauerhaften Waffenschaden</span> (summiert sich max. {s:MaxStacks}-mal auf). Beim Tod geht 1 Instanz verloren."
+
+		//"upgrade_split_shot"					"Split Shot"
+		"upgrade_split_shot_desc"			"Deine Waffe feuert eine <span class=\"highlight\">Salve</span> ab.<br><br>Wenn Du mehr als einen Helden pro Angriff triffst, erhältst Du <span class=\"highlight\">sich aufsummierenden Bonuswaffenschaden</span>.<br><br><span class=\"diminish\">Ziele können pro Salve nur einmal getroffen werden.</span>"
+		"upgrade_split_shot_desc_02"		"Bonusschaden bei Mehrfachtreffer"
+		"SpecialShotsBonusFireRate_label"	"Feuerrate während Salve"
+		"SpecialShotsBonusFireRate_postfix"	" %"
+		"SpecialShotsBonusFireRate_prefix"	"+"
+		"SplitShotWeaponDuration_label"		"Instanzendauer"
+		"SplitShotWeaponDuration_postfix"		" s"		
+		//"SplitShotsCount_label"				"Split Shots"
+		
+		// upgrade_blood_tribute			// Blood Tribute
+		"upgrade_blood_tribute_desc"		"Umschalten: Du opferst kontinuierlich Lebenspunkte und erhältst {g:citadel_inline_attribute:'FireRate'}, <span class=\"highlight\">Schwächungsresistenz</span> und <span class=\"highlight\">Bewegungstempo</span>. Erhaltene Heilung wird während dieses Lebensverlusts reduziert."
+
+		//"upgrade_non_player_bonus_sacrifice"	"Cultlist Sacrifice"
+		"upgrade_non_player_bonus_sacrifice_desc"	"Kann auf einen gegnerischen Infanteristen oder eine neutrale Einheit angewendet werden. Verschlingt das Ziel und gewährt <span class=\"highlight\">{s:BonusSoulsPct} % der normalen Seelen</span> sowie einen lang anhaltenden Stärkungseffekt."
+
+		//"upgrade_capacitor"						"Capacitor"
+		"upgrade_capacitor_desc"					"Feuert ein Projektil ab, das <span class=\"highlight\">{g:citadel_inline_attribute:'SpiritIcon'} Magieschaden</span> zufügt, alle Stärkungseffekte von nicht-ultimativen Fähigkeiten entfernt und eine starke Verlangsamung zufügt. Dieser Malus klingt allmählich wieder ab."
+		
+		//"upgrade_enchanted_holsters"			"Enchanted Holsters"
+		"upgrade_enchanted_holsters_desc"		"Immer wenn Du eine Fähigkeit oder einen Gegenstand einsetzt, erhältst Du einen sich aufsummierenden Stärkungseffekt, der die Feuerrate und das Nachladetempo verbessert.<br><span class=\"diminish\">Jede Instanz setzt die Dauer zurück.</span>"
+		
+		// "upgrade_weapon_backstabber"			"Backstabber"
+		"upgrade_weapon_backstabber_desc"		"Angriffe mit der Waffe und Nahkampfangriffe von hinten markieren Gegner, fügen ihnen {g:citadel_inline_attribute:'SpiritDPS'} zu und reduzieren ihre Kugelresistenz. Solange die Markierung besteht, erhalten Du und Verbündete in der Nähe des Ziels {g:citadel_inline_attribute:'BonusMoveSpeed'} und können dieses <span class=\"highlight\">durch Wände</span> sehen."
+		"BackstabberRadius_label"		"Bonusradius"
+		"BackstabberRadius_postfix"		" m"
+		
+
+		//"upgrade_express_shot"				"Express Shot"
+		"upgrade_express_shot_desc"				"Nachdem Du {s:AbilityCooldown} s lang nicht angegriffen hast, wird Dein nächster Angriff <span class=\"highlight\">doppelt</span> in schneller Folge mit <span class=\"highlight\">erhöhtem Schaden</span> und Kugeltempo abgefeuert. Dieser Angriff verbraucht zusätzliche Munition."
+		"ProcAmmoConsumed_label"				"zus. verbrauchte Munition"
+		"ProcAmmoConsumed_postfix"				" %"
+
+		
+		//Melee Charge
+		"upgrade_melee_charge_desc"				"Dein nächster <span class=\"highlight\">schwerer Nahkampfangriff</span> gegen einen Gegner <span class=\"highlight\">fügt erhöhten Schaden zu</span>."
+		"MeleeDistanceScale_label"				"Reichweite für schweren Nahkampfangriff"
+		"MeleeDistanceScale_prefix"				"+"
+		"MeleeDistanceScale_postfix"			" %"
+		"BonusHeavyMeleeDamage_prefix"			"+"
+		"BonusHeavyMeleeDamage_label"			"Bonusschaden mit schwerem Nahkampfangriff"
+		"BonusHeavyMeleeDamage_postfix"			" %"
+
+		// "upgrade_crushing_fists"				"Crushing Fists"
+		"upgrade_crushing_fists_desc"			"Dein <span class=\"highlight\">{g:citadel_inline_attribute:'MeleeDamage'}</span> <span class=\"highlight\">stellt Munition wieder her</span> und fügt Gegnern einen <span class=\"highlight\">sich aufsummierenden Schwächungseffekt</span> zu, der die <span class=\"highlight\">Kugelresistenz reduziert</span>. Ein schwerer Nahkampfangriff fügt 2 Instanzen zu.<br><br>Falls dem Ziel die max. Instanzen zugefügt wurden, wird es <span class=\"highlight\">betäubt</span>."
+		"notification_crushing_fists_stun"		"Zermalmende Fäuste – Betäubt!"
+
+		//-----------------------------------------------------------------------------
+		// Upgrades: Tech
+		//-----------------------------------------------------------------------------
+		
+		// "upgrade_mystic_regeneration"		"Mystic Regeneration"
+		"upgrade_mystic_regeneration_desc"		"Wenn Du gegnerischen Helden Magieschaden zufügst, erhältst Du Bonuslebensregeneration. Der Effekt summiert sich auf, wenn unterschiedlichen Helden Schaden zugefügt wird."
+
+		//Spirit Lifesteal
+		//"upgrade_health_stealing_magic_desc"		"Your <span class=\"highlight\">spirit items and abilities heal you</span> for a percentage of the damage they deal. Heals for less on Non-Heroes and does not work on buildings."
+		//"NonHeroAbilityLifestealTooltipOnly_label"			"Non-Hero Value"
+		"NonHeroAbilityLifestealTooltipOnly_postfix"		" %"
+		
+		//Mystic Vulnerability
+		"upgrade_magic_vulnerability_desc"	"Reduziert die <span class=\"highlight\">Magieresistenz</span> Deines Ziels, wenn du diesem <span class=\"highlight\">Magieschaden</span> zufügst."		
+
+		//Healbane
+		"upgrade_healbane_desc"	"Wenn Du einem Ziel <span class=\"highlight\">Magieschaden</span> zufügst, reduziert sich auch dessen <span class=\"highlight\">Heilung</span>. Falls ein gegnerischer Held unter diesem Effekt stirbt, wirst Du sofort um eine große Menge geheilt."
+		"HealOnKill_label"		"Heilung bei Heldenkill"
+
+		//Mystic Slow
+		"upgrade_magic_slow_desc"	"Wenn Du einem Ziel <span class=\"highlight\">Magieschaden</span> zufügst, reduziert sich dessen <span class=\"highlight\">Bewegungstempo</span>."
+
+		//Escalating Exposure
+		"upgrade_escalating_exposure_desc"	"Wenn Du einem Ziel <span class=\"highlight\">Magieschaden</span> zufügst, wird auch eine sich aufsummierende <span class=\"highlight\">Verstärkung</span> angewendet, die den <span class=\"highlight\">Magieschaden</span> gegen das Ziel erhöht."
+		"upgrade_escalating_exposure/modifier_proc_watcher/modifier_debuff"		"Eskalierende Bloßstellung"
+		"EscalatingExposureProcCooldown_label"	"max. Häufigkeit pro Ziel"
+		"EscalatingExposureProcCooldown_postfix"	" s"
+		"EscalatingExposureTechArmorDamageReduction_label"	"Magieresistenz nach erlittenem Magieschaden"
+		"EscalatingExposureTechArmorDamageReduction_postfix"	" %"
+
+		//Mystic Reach
+		"upgrade_magic_reach_desc"			"Veredle eine Fähigkeit, um deren <span class=\"highlight\">Reichweite</span> und <span class=\"highlight\">Effektradius</span> zu erhöhen."
+
+		//Improved Reach
+		"upgrade_tech_range_desc"			"Erhöht die <span class=\"highlight\">Reichweite</span> und den <span class=\"highlight\">Effektradius</span> Deiner Fähigkeiten und Gegenstände."
+
+		//Omni Spirit
+		//"upgrade_long_range_slowing_tech_desc"		"Applies a <span class=\"highlight\">movement slow</span> to enemies when dealing spirit damage."
+		"upgrade_long_range_slowing_tech/modifier_long_range_slowing_tech_proc/modifier_slow_base"	"Verlangsamt"
+
+		//Full Spectrum
+		//"upgrade_full_spectrum_passive"	"Adds <span class=\"highlight\">bonus damage</span> for every hero hit from your spirit damage mods or abilities and applies a <span class=\"highlight\">movement slow</span>."
+
+		//Mystic Range
+		//"upgrade_tech_range_2_desc"		"Increases your spirit <span class=\"highlight\">range</span>, <span class=\"highlight\">aura radius</span>, and <span class=\"highlight\">effect radius</span>."
+		
+		//Improved Cooldown
+		"upgrade_magic_tempo_desc"	"Veredle eine Fähigkeit, um deren <span class=\"highlight\">Abklingzeit</span> zu reduzieren."
+
+		//Superior Cooldown
+		"upgrade_cooldown_reduction_desc"	"Reduziert die <span class=\"highlight\">Abklingzeit</span> Deiner Fähigkeiten und Gegenstände."
+
+		//Spiritual Recharge
+		//"upgrade_recharge_duration_reduction_desc"		"Reduces the <span class=\"highlight\">recharge duration<%s> of your ability chages."
+
+		//Extra Charge
+		//"upgrade_extra_charge_desc"	"Adds one to your ability max <span class=\"highlight\">charges</span>."
+		"BonusSpiritForChargedAbilities_prefix"						"+"
+		"BonusSpiritForChargedAbilities_label"						"Bonusmagiekraft für Fähigkeiten mit Aufladungen"
+
+		//Hyper Charge
+		//"upgrade_bonus_ability_charge_3_desc"	"<span class=\"highlight\">+{s:BonusAbilityCharges}</span> to your max ability <span class=\"highlight\">charges</span>."
+
+		//Charge Mastery
+		//"upgrade_charge_mastery_passive"	"Charged abilities have <span class=\"highlight\">{s:BonusChargedAbilityDamage}%</span> increased damage and <span class=\"highlight\">{s:BonusChargedCooldownReduction}%</span> reduced cooldown."
+
+		//Rapid Recharge
+		"CooldownReductionOnChargedAbilities_label"	"Abklingzeitred. für Fähigkeiten mit Aufladungen"
+		"CooldownReductionOnChargedAbilities_postfix" " %"
+		"CooldownReductionOnChargedAbilities_prefix" "+"
+
+		//Alchemical Fire
+		"upgrade_thermal_detonator_desc"		"Wirft einen Trank, der bei Aufprall explodiert und im Wirkungsbereich zunehmenden <span class=\"highlight\">Magieschaden pro Sekunde</span> zufügt sowie die <span class=\"highlight\">Kugelresistenz</span> von Gegnern reduziert.<br><br>{s:NonHeroReductionPercent} % weniger effektiv gegen Nicht-Helden."
+		"BonusBaseWeaponDamageTaken_prefix"		"+"
+		"BonusBaseWeaponDamageTaken_label"		"Waffenschaden"
+		"BonusBaseWeaponDamageTaken_postfix"	" %"
+
+		//Fleetfoot
+		"upgrade_fleetfoot_boots_active_desc"	"Gewährt Dir zusätzliches <span class=\"highlight\">Bewegungstempo</span>."
+		"upgrade_fleetfoot_boots_passive_desc"	"Entfernt den <span class=\"highlight\">Bewegungstempomalus</span> beim Schießen."
+		"modifier_fleetfoot_boots"				"Schnelle Stiefel"
+
+		//Kinetic Dash
+		"upgrade_kinetic_sash_desc"		"Wenn Du einen <span class=\"highlight\">Spurtsprung</span> ausführst, erhältst Du zusätzliche <span class=\"highlight\">Feuerrate</span> und zusätzliche <span class=\"highlight\">Munition</span>, bis Du das nächste Mal nachlädst. Hält für bis zu {s:AbilityDuration} s an."
+		"modifier_kinetic_sash_triggered"	"Kinetischer Spurt"
+
+		//Arcane Surge
+		"upgrade_arcane_surge_desc"			"Wenn Du einen <span class=\"highlight\">Spurtsprung</span> ausführst, erhält Deine <span class=\"highlight\">nächste eingesetzte Fähigkeit</span> zusätzliche <span class=\"highlight\">Reichweite und Dauer</span> sowie <span class=\"highlight\">Magiekraft</span>. Hält für bis zu {s:AbilityDuration} s an."
+		"modifier_arcane_surge_triggered"	"Arkane Verstärkung"
+		"modifier_arcane_surge_ability"		"Fähigkeit verstärkt!"
+
+		//Active Reload
+		"upgrade_active_reload_desc"	"Drücke beim Nachladen {g:citadel_keybind:'Reload'}, während sich der Indikator im hervorgehobenen Abschnitt befindet, um das <span class=\"highlight\">Nachladen sofort abzuschließen</span> und zusätzliche <span class=\"highlight\">Feuerrate</span> und zusätzlichen <span class=\"highlight\">Kugellebensraub</span> zu erhalten."
+		"upgrade_active_reload/buff"	"Schnelllader-Magazin"
+
+		//Arcane Medallion
+		//"upgrade_arcane_medallion_desc"	"Whenever you deal <span class=\"highlight\">{s:MinimumDamage} Spirit damage</span> or more in a single hit against an enemy hero, gain <span class=\"highlight\">temporary Spirit Power</span>."
+		//"modifier_arcane_medallion_triggered"	"Arcane Medallion"
+
+		//Soul Disruptor
+		//"upgrade_mod_disruptor_desc"	"Throw a grenade that explodes on contact and applies <span class=\"highlight\">silence</span> and <span class=\"highlight\">increasing amounts of damage</span> to each enemy."
+		
+		//Ability Speed	
+		//"upgrade_ability_speed_desc"		"Increases your move speed while using any movement-based ability"
+		
+		//Rescue
+		//"upgrade_succor_desc"				"<span class=\"highlight\">Pulls</span> the targeted teammate out of battle and brings them next to you."
+		
+		//Slowing Hex
+		"upgrade_containment_desc"			"<span class=\"highlight\">Verlangsamt das Bewegungstempo</span> eines gegnerischen Ziels. Lässt auch dessen <span class=\"highlight\">Fähigkeiten und Gegenstände mit Bewegungskomponente</span> <span class=\"highlight\">verstummen</span>.<br><span class=\"diminish\">Hat keinen Effekt auf den Ausdauereinsatz des Ziels.</span>"
+
+		//Spirit Sap
+		"upgrade_spirit_sap_desc"			"Kann auf einen ausgewählten Gegner angewendet werden, um dessen <span class=\"highlight\">Magieresistenz</span> und <span class=\"highlight\">Magiekraft</span> zu reduzieren."
+
+		//Focus Lens
+		"upgrade_focus_lens_desc"			"Kann auf einen ausgewählten Gegner angewendet werden, um diesen verstummen zu lassen. Das Ziel erleidet einen Prozentsatz des <span class=\"highlight\">gesamten während der Verstummung zugefügten Schadens</span>, wenn der Effekt abläuft."
+		"PercentDamage_label"				"Schaden bei Ablauf"
+		"PercentDamage_postfix"				" %"
+
+		//Withering Whip
+		"upgrade_withering_whip_desc"		"Kann auf einen ausgewählten Gegner angewendet werden, wodurch dessen <span class=\"highlight\">Feuerrate</span> verlangsamt wird."
+		"modifier_withering_whip_debuff"	"Feuerrate reduziert"
+		"MagicAmp_label"					"Magieschadens­verstärkung"
+		"MagicAmp_postfix"					" %"
+		"WitheringWhipDisarmDuration_label"	"Dauer"
+		"WitheringWhipDisarmDuration_postfix"	" s"
+		"SpiritPower_label"					"Magiekraft"
+		"SpiritPower_prefix"					"+"
+
+		// Disarming Hex
+		"upgrade_greater_withering_whip_desc"		"<span class=\"highlight\">Entwaffnet</span> ein gegnerisches Ziel und reduziert dessen <span class=\"highlight\">Kugelresistenz</span>."
+		"upgrade_greater_withering_whip_debuff"		"Entwaffnet"
+
+		//Ethereal Shift
+		"upgrade_self_bubble_desc"			"Du betrittst eine Dimension der Leere, wodurch Du für kurze Zeit <span class=\"highlight\">nicht mehr anvisiert werden kannst und unverwundbar bist</span>. Währenddessen schwebst Du langsam in der Luft und kannst keine anderen Aktionen ausführen. Nach diesem Effekt erhältst Du <span class=\"highlight\">Magiekraft, Bewegungstempo und Magieresistenz</span>.<br>Kann frühzeitig abgebrochen werden.<br><span class=\"diminish\">Bricht alle aktiven Fähigkeiten ab.</span>"
+		"ShiftingVeilDuration_label"			"Dauer"
+		"ShiftingVeilDuration_postfix"		" s"
+		"BonusSpiritDuration_label"			"Dauer für Bonusmagiekraft"
+		"BonusSpiritDuration_postfix"			" s"
+		"BonusTechPower_prefix"				"{s:sign}"
+		"BonusTechPower_label"				"Magiekraft"
+		"modifier_shifting_veil_buff"			"Ätherischer Schleier"
+		"shifting_veil_bonus"			"Magiekraft, Bewegungstempo und Magieresistenz"
+		"modifier_citadel_bubble"				"Ätherischer Schleier"
+
+		//Stasis Bomb
+		//"upgrade_stasis_bomb_active1"		"Creates an <span class=\"highlight\">EMP aura</span> around you and become <span class=\"highlight\">invincible</span> for {s:AbilityDuration}s, during which it has {s:MoveSpeedMax}m/s move speed and cannot attack, use abilities, or use special moves. Can be self cast."
+		//"upgrade_stasis_bomb_active2"		"<span class=\"spacer\"></span><br>If the Stasis lasts the full duration, it will <span class=\"highlight\">stun and damage</span> nearby enemies."
+		//"upgrade_stasis_bomb_desc_passive"	"Your bullets charge up an <span class=\"highlight\">EMP</span> on enemy heroes, preventing them from using abilities."
+		//"upgrade_stasis_bomb/modifier_citadel_bubble"	"Stasis Bomb"
+
+		//Quarantine
+		//"upgrade_quarantine_desc"			"Quarantine an enemy Hero, making them <span class=\"highlight\">invincible</span> but also <span class=\"highlight\">silencing and disarming</span> them."
+		
+		//Rescue Beam
+		"upgrade_rescue_beam_desc"		"<span class=\"highlight\">Heilt</span> Dich und einen ausgewählten verbündeten Helden um einen <span class=\"highlight\">Prozentsatz der max. Lebenspunkte</span>. Einmal während der Heilung kannst Du das Ziel zu Dir <span class=\"highlight\">heranziehen</span>. Kann auf sich selbst angewendet werden."
+		//"SelfModifier_label"			"Self Modifier"
+		"SelfModifier_postfix"			" %"
+		"upgrade_rescue_beam_pull"		"Ziel heranziehen"
+		"modifier_succor_move"			"Rettungs­strahl"
+		
+		//[Deprecated] Duration Extender
+		//"upgrade_duration_extender_desc"	"Increases <span class=\"highlight\">Duration</span> of your abilities and items by <span class=\"highlight\">{s:NonImbuedBonusDuration}%</span>."
+
+		//Slowing Spirit
+		//"upgrade_slowing_tech_desc"		"Dealing <span class=\"highlight\">Spirit Damage</span> applies <span class=\"highlight\">Movement Slows</span> to your target."
+		//"modifier_slowing_tech_slow"					"Slowing Spirit"
+		"upgrade_slowing_tech/modifier_slowing_tech_proc/modifier_slow_base"						"Verlangsamt"
+
+		//Energy
+		//"upgrade_tech_3_desc"				"Large increase in <span class=\"highlight\">Energy</span>."
+		
+		//Refresher
+		"upgrade_ability_refresher_desc"	"<span class=\"highlight\">Setzt die Abklingzeit</span> all Deiner Fähigkeiten zurück und <span class=\"highlight\">stellt alle Deine Aufladungen wieder her</span>."
+		//"upgrade_ability_refresher_innate_desc" "Health<br>Spirit Power"
+
+		//Spirit Barrier Pulse
+		//"upgrade_aoe_tech_shield_desc"		"Temporarily gain <span class=\"highlight\">spirit barrier</span> for you and all nearby allied units."
+		//"upgrade_aoe_tech_shield/modifier_duration" "Spirit Barrier Pulse"
+		
+		//Cold Front
+		"upgrade_cold_front_desc"			"Stößt eine sich ausbreitende Eisexplosion aus, die <span class=\"highlight\">Magieschaden</span> zufügt und getroffene Ziele <span class=\"highlight\">verlangsamt</span>."
+
+		//Arctic Blast
+		"upgrade_arctic_blast_desc"			"Löst eine sich ausbreitende Eisexplosion aus, die <span class=\"highlight\">Magieschaden</span> zufügt, getroffene Gegner <span class=\"highlight\">einfriert</span> und <span class=\"highlight\">verlangsamt</span>. Eingefrorene Ziele erleiden erhöhten Schaden."
+		"ArcticBlastSlowDuration_label"		"Verlangsamungs­dauer"
+		"ArcticBlastSlowDuration_postfix"	" s"
+		"ArcticBlastPercentDamage_label"	"Bonusschaden gg. eingefrorene Ziele"
+		"ArcticBlastPercentDamage_postfix"	" %"
+
+		//Knockdown
+		"upgrade_target_stun_desc"			"<span class=\"highlight\">Betäubt</span> einen Gegner nach einer Verzögerung von <span class=\"highlight\">{s:StunDelay} s</span>. <span class=\"highlight\">Ziele in der Luft</span> werden länger betäubt."
+		
+		//Vacuum Web
+		"upgrade_aoe_root_active"		"Wirft eine <span class=\"highlight\">Vakuum-Granate</span>, die alle Gegner im Wirkungsbereich heranzieht und mit dem Effekt von <span class=\"highlight\">Fluch der Langsamkeit</span> belegt."
+		//"TetherRadius_label"			"Tether Radius"
+								
+		//Quantum Chimaera
+		//"upgrade_tech_cleave_desc"			"Your Tech attacks strike additional nearby enemies for <span class=\"highlight\">75% of the total damage</span>."
+
+		//Spirit Armor Reduction Aura
+		//"upgrade_tech_armor_reduction_aura_desc"	"Increases <span class=\"highlight\">Spirit Damage</span> taken by nearby enemies."
+		//"modifier_tech_armor_reduction"																					"Spirit Armor Reduced"
+		//"modifier_tech_armor_reduction_aura"					"Spirit Armor Reduction Aura"
+	
+		//Camouflage Suit
+		//"upgrade_camouflage_desc"					"Go <span class=\"highlight\">invisible</span> and maintain invisibility by <span class=\"highlight\">not moving or attacking</span>.  Taking damage will not reveal the Hero.  Bonus Regen while Invisible."
+
+		//Curse
+		"upgrade_glitch_desc"					"Verflucht einen Gegner, wodurch dieser <span class=\"highlight\">unterbrochen, verstummt und entwaffnet</span> wird und auch <span class=\"highlight\">keine Gegenstände mehr einsetzen kann</span>."
+		"upgrade_glitch/modifier_glitch_debuff"	"Verflucht!"
+
+		//Bullet Resist Shredder
+		"upgrade_bullet_resist_shredder_desc"	"Wenn Du einem Ziel <span class=\"highlight\">Magieschaden</span> zufügst, reduziert sich dessen <span class=\"highlight\">Kugelresistenz</span>."
+		"upgrade_bullet_resist_shredder/modifier_bullet_armor_shredder_proc/modifier_bullet_armor_shredder" "Kugelresistenz reduziert"
+
+		//Weapon Eater
+		//"upgrade_weapon_eater_desc"				"Reduces Courage by <span class=\"highlight_weapon\">{s:BaseBonusCounter}</span>. <br>Gain <span class=\"highlight_weapon\">{s:WeaponPowerPerKill} Courage</span> (Up to <span class=\"highlight_weapon\">{s:MaxWeaponPower}</span>) for <span class=\"highlight\">killing an enemy Hero</span> but lose <span class=\"highlight_weapon\">{s:WeaponPowerPerDeath} gained Courage</span> on <span class=\"highlight\">Death</span>. Bonus applied if damage was done within {s:KillWindow}s of enemy killed. "
+		//"upgrade_weapon_eater/modifier_weapon_eater_display"			"Weapon Eater"
+
+		//Reloader + Huge Clip
+		//"upgrade_weapon_instant_reload_desc"	"Press the [Reload] key while reloading to instantly finish your reload"
+
+		//Echo Shard
+		"upgrade_ability_power_shard_active"	"<span class=\"highlight\">Setzt die Abklingzeit</span> der veredelten nicht-ultimativen Fähigkeit <span class=\"highlight\">zurück</span>."
+
+		//Imbued Ability"
+		//"upgrade_imbued_ability_passive1"		"Upon purchasing this mod, select an ability to imbue with <span class=\"highlight\">{s:ImbuedBonusDuration}% bonus duration</span> and <span class=\"highlight\">{s:ImbuedBonusDamage}% bonus damage</span>."
+		//"upgrade_imbued_ability_passive2"		"Your spirit damage <span class=\"highlight\">slows</span> your target's movement."
+		
+		//Duration Extender
+		"upgrade_arcane_extension_desc"	"Veredle eine Fähigkeit, um deren <span class=\"highlight\">Dauer</span> zu erhöhen."
+
+		//Superior Duration
+		"upgrade_imbued_duration_extender_desc"	"Erhöht die <span class=\"highlight\">Dauer</span> Deiner Fähigkeiten und Gegenstände."
+
+		//Diviner's Kevlar
+		"upgrade_diviners_kevlar_desc"			"Wenn Du eine <span class=\"highlight\">ultimative Fähigkeit</span> einsetzt, erhältst Du eine <span class=\"highlight\">Barriere</span> sowie temporäre <span class=\"highlight\">Magiekraft</span>."
+		//"BonusChannelTechPower_label"			"Spirit Power While Channeling"
+		"BonusChannelTechPower_prefix"			"+"
+		"BonusChannelTimePercentage_label"		"Kanalisierungs­dauer"
+		"BonusChannelTimePercentage_prefix"		"+"
+		"BonusChannelTimePercentage_postfix"	" %"
+		//"ChannelBulletShield_label"				"Bullet Barrier While Channeling"
+
+		//Infuser
+		"upgrade_infuser_desc"			"Du erhältst <span class=\"highlight\">Magielebensraub</span> und <span class=\"highlight\">Magiekraft</span>."
+		"modifier_infuser" "Magische Infusion"
+
+		//Spirit Strike
+		"upgrade_acolytes_glove_desc"			"Wenn Du einen <span class=\"highlight\">leichten oder schweren Nahkampfangriff</span> gegen einen Helden ausführst, fügst Du zusätzlichen <span class=\"highlight\">Magieschaden</span> mit dem Angriff zu und reduzierst die <span class=\"highlight\">Magieresistenz</span> des Ziels."
+		"SpiritDamage_label"					"Magieschaden"
+		"modifier_acolytes_glove_triggered"		"Magieschlag"
+
+		//Spirit Snatch
+		"upgrade_spirit_snatch_desc"			"Wenn Du einen <span class=\"highlight\">leichten oder schweren Nahkampfangriff</span> gegen einen Helden ausführst, fügst Du zusätzlichen <span class=\"highlight\">Magieschaden</span> mit dem Angriff zu und stiehlst <span class=\"highlight\">Magieresistenz</span> und <span class=\"highlight\">Magiekraft</span> des Ziels."
+		"SpiritSnatch_TechArmorSteal_label"		"gestohlene Magieresistenz"
+		"SpiritSnatch_TechArmorSteal_postfix"	" %"
+		"SpiritSnatch_TechPowerSteal_label"		"gestohlene Magiekraft"
+
+		//Charmed Wraps
+		//"upgrade_charmed_wraps_desc"			"Your abilities get their <span class=\"highlight\">cooldowns reduced</span> when you perform a <span class=\"highlight\">heavy melee</span> attack against a hero (or <span class=\"highlight\">two light melee</span> attacks within {s:LightMeleeTimeWindow}s)."
+
+		//Clarity
+		//"upgrade_magic_clarity_desc"			"On ability or item use, gain a <span class=\"highlight\">move speed</span> bonus for {s:AbilityDuration}s.  Your next ability cast will remove the move speed bonus and apply a <span class=\"highlight\">Spirit</span> bonus to that ability."
+		"ClarityBonusSpirit_prefix"				"{s:sign}"
+		//"ClarityBonusSpirit_label"				"Next Ability Bonus Spirit Power"
+
+		//Surge of Power
+		"upgrade_magic_storm_desc"				"Veredelt eine Fähigkeit, wodurch diese <span class=\"highlight\">dauerhaft Magiekraft</span> erhält. Wenn die Fähigkeit eingesetzt wird, erhältst Du zusätzliches <span class=\"highlight\">Bewegungstempo</span> und behältst das volle Tempo während des Angriffs bei."
+		"modifier_upgrade_magic_storm"			"Ansteigende Magiekraft"
+
+		//Suppressor
+		"upgrade_suppressor_desc"					"Wenn Du Gegnern <span class=\"highlight\">Magieschaden</span> zufügst, wird auch deren <span class=\"highlight\">Feuerrate reduziert</span>."
+		"suppressor_debuff"						"Feuerrate reduziert"
+
+		//Quicksilver Reload
+		"upgrade_quick_silver_desc"				"Deine veredelte Fähigkeit erhält {g:citadel_inline_attribute:'BonusSpiritDamage'}, {g:citadel_inline_attribute:'BonusFireRate'} und <span class=\"highlight\">lädt beim Einsatz Kugeln nach</span>. Die max. Boni werden nach einer bestimmten Dauer erreicht."
+		//"modifier_quick_silver_buff"				"+Fire Rate"
+
+		//Boundless Spirit
+		"upgrade_boundless_spirit_desc"			"Immer wenn Du eine Fähigkeit einsetzt, wirst Du <span class=\"highlight\">geheilt</span> und erhältst für kurze Zeit zusätzliches <span class=\"highlight\">Bewegungstempo</span>."
+		"HealingPerCast_Label"					"Heilung bei Fähigkeitseinsatz"
+
+		// Magic carpet
+		"upgrade_magic_carpet_desc"				"Beschwört einen Fliegenden Teppich, auf dem Du <span class=\"highlight\">davonfliegen</span> kannst. Während dem Flug kannst Du nicht verlangsamt werden. Wenn Du Aktionen ausführst, verschwindet der Fliegende Teppich.<br><span class=\"diminish\">Du kannst keine Fähigkeiten einsetzen, während der Fliegende Teppich beschworen wird.</span>"
+		"modifier_magiccarpet"					"Fliegender Teppich"
+		"modifier_summon_magiccarpet"			"Fliegender Teppich wird beschworen"
+		"MagicCarpetMoveSpeed_prefix"			"+"
+		"MagicCarpetMoveSpeed_label"			"Bonusflugtempo"
+		"MagicCarpetMoveSpeed_postfix"			" m/s"
+		"MagicCarpetShieldDuration_label"		"Schilddauer"
+		"MagicCarpetShieldDuration_postfix"		" s"
+
+		//
+		"upgrade_superacolytes_glove_desc"			"Nachdem Du insgesamt einen gesammelten Magieschaden von <span class=\"highlight\">{s:StoredSpiritDamage}</span> verursacht hast, verursacht Dein nächster <span class=\"highlight\">Schwerer Nahkampfangriff</span> zusätzlich <span class=\"highlight\">{s:StoredSpiritDamage} Magieschaden</span>."
+		"StoredSpiritDamage_label"			"Gesammelter Magieschaden"
+		"upgrade_superacolytes_glove/modifier_superacoloytes_glove" "Schlagring entflucht!"
+
+		//SpiritBurn
+		"upgrade_spirit_burn_desc"	"Wenn Du einem Gegner innerhalb von {s:DamageThresholdDuration} s erheblichen <span class=\"highlight\">Magieschaden</span> zufügst, wird eine Explosion ausgelöst, die Gegnern in der Nähe Schaden zufügt und in Brand setzt. Fügt Gegnern währenddessen kontinuierlich Schaden zu und reduziert deren Heilung.<br><span class=\"diminish\">Fügt Nicht-Heldeneinheiten den halben Schaden zu. Die Abklingzeit beginnt nur, wenn ein Held getroffen wird.</span>"
+		"upgrade_spirit_burn/modifier_proc_watcher/modifier_debuff"		"Magiebrand"
+		"MinDPS_label" "min. Schaden pro Sek."
+
+		//Lightning Scroll
+		"upgrade_ultimate_burst_desc"			"<span class=\"highlight\">Schaden durch Deine ultimative Fähigkeit fügt nach einer kurzen Verzögerung {g:citadel_inline_attribute:'BonusSpiritDamage'} zu und {g:citadel_inline_attribute:'Stun'}.</span>"
+		"upgrade_ultimate_burst_hint"			"<span class=\"diminish\">Dieser Effekt kann nur einmal pro Ziel und pro eingesetzter ultimativer Fähigkeit ausgelöst werden. Ultimative Fähigkeiten mit Aufladungen lösen diesen Effekt nicht aus.</span>"
+		"LightningScrollMysticSlow_label"		"Bewegungstempo bei Magieschaden"
+		"LightningScrollMysticSlow_prefix"		"−"
+		"LightningScrollMysticSlow_postfix"		" %"
+		"DelayBeforeStun_label"					"Verzögerung vor Effekt"
+		"DelayBeforeStun_postfix"				" s"
+
+		"MaxHealthDamage_label" "Schaden (max. LP)"
+		"MaxHealthDamage_postfix" " %"
+		"UltimateTechPower_label" "Ultimative Magiekraft"
+
+		//Corpse Explosion
+		"upgrade_corpse_explosion_desc"			"Kills und Assists verursachen eine <span class=\"highlight\">Explosion</span> am Todesort des betroffenen Gegners. Bei einem Heldenkill ist der Radius und Schaden erhöht."
+		"HeroMultiplier_label" "Explosions-Multiplikator (Helden)"
+		"HeroMultiplier_postfix" " %"
+		//-----------------------------------------------------------------------------
+		// Upgrades: Armor
+		//-----------------------------------------------------------------------------
+		
+		//Toughness
+		//"upgrade_toughness_3_desc"					    "Increases <span class=\"highlight\">Health</span> and <span class=\"highlight\">health regen</span>."
+
+		//Bullet Lifesteal
+		//"upgrade_vampire_desc"							"Your <span class=\"highlight\">bullets heal you</span> for a percentage of the damage they deal to enemies. Half as effective vs Non-Heroes."
+		
+		//Health Regen
+		//"upgrade_health_regen_1_desc"					"Increases <span class=\"highlight\">health regen</span>."
+
+		//Healing Rite
+		"upgrade_health_stimpak_desc"					"Gewährt dem Ziel <span class=\"highlight\">Regeneration</span> und <span class=\"highlight\">Sprinttempo</span>. Wird entzaubert, wenn das Ziel Schaden von Gegnern oder Angriffszielen erleidet. Kann auf sich selbst angewendet werden."
+		"upgrade_health_stimpak/modifier_stimpak_regen"			"Heilungsritus"
+		"modifier_stimpak_regen" "Heilungsritus"
+		
+		//Guardian Ward
+		"upgrade_guardian_ward_desc"		"Gewährt dem Ziel eine <span class=\"highlight\">Barriere</span> und temporäres <span class=\"highlight\">Bewegungstempo</span>.<br><span class=\"diminish\">Kann auf sich selbst angewendet werden. Die Abklingzeit wird um die Hälfte reduziert, wenn der Effekt auf einen Verbündeten angewendet wird.</span>"
+
+		//Divine Barrier
+		"upgrade_divine_barrier_desc"		"<span class=\"highlight\">Entfernt alle Schwächungseffekte mit Ausnahme von Betäubungen</span> vom Ziel und gewährt diesem eine <span class=\"highlight\">Barriere</span> sowie temporäres <span class=\"highlight\">Bewegungstempo</span>.<br><span class=\"diminish\">Kann auf sich selbst angewendet werden. Die Abklingzeit wird um die Hälfte reduziert, wenn der Effekt auf einen Verbündeten angewendet wird.</span>"
+
+		//Restorative Locket
+		"upgrade_restorative_locket_active_desc"		"Wenn ein Gegner eine Fähigkeit innerhalb einer Reichweite von {s:Radius} m von Dir einsetzt, erhältst Du eine <span class=\"highlight\">Aufladung zur Lebenswiederherstellung</span>.<br><br>Beim Einsatz werden alle Aufladungen verbraucht, um das <span class=\"highlight\">ausgewählte verbündete Ziel zu heilen</span> und <span class=\"highlight\">{s:StaminaToRestore} Ausdauerbalken</span> wiederherzustellen. Kann auf sich selbst angewendet werden."
+		"modifier_restorative_locket_stacks"				"Heilendes Amulett"
+		"HealPerStack_label"								"Heilung pro Aufladung"
+
+		//Bullet Deflector
+		//"upgrade_health_bullet_deflector_desc"			"Prevents <span class=\"highlight\">{s:BulletDamageReductionPct}%</span> of incoming bullet damage, with a maximum of <span class=\"highlight\">{s:BulletDamageReductionPerSecond}</span> damage deflected per second."
+
+		//Regenerative Armor
+		//"upgrade_health_regenerative_armor_desc"		"Automatically <span class=\"highlight\">restores health</span> lost from <span class=\"highlight\">bullet damage</span>, regenerating up to <span class=\"highlight\">{s:BulletDamageRecoveredPerSecond} health</span> per second."
+
+		//Bullet Armor
+		//"upgrade_bullet_armor_desc"					"Decreases <span class=\"highlight\">damage taken</span> from bullets."
+
+		//Improved Bullet Armor
+		//"upgrade_improved_bullet_armor_desc"			"Decreases <span class=\"highlight\">damage taken</span> from bullets."
+
+		//Improved Bullet Armor
+		//"upgrade_bullet_armor_2_desc"					"Decreases <span class=\"highlight\">damage taken</span> from bullets."
+
+		//Double-Jump
+		//"upgrade_double_jump_desc"					"Allows you to perform an additional <span class=\"highlight\">jump</span> in mid-air."
+		
+		//Overdrive
+		//"upgrade_weapon_power_and_health_drain_desc"	"Increase your <span class=\"highlight\">Courage</span> while draining your own <span class=\"highlight\">health</span>."	
+		
+		//Healing Aura
+		//"upgrade_health_regen_aura_desc"			"Automatically provides a burst of healing to yourself and nearby friendlies every <span class=\"highlight\">{s:HealInterval} seconds</span>.  <br>Effect does not stack."
+		//"TempMaxHealth_label"							"Overheal Health"
+
+		//Cheat Death
+		//"upgrade_cheat_death_pulse_passive"		"Releases a <span class=\"highlight\">periodic pulse</span>, damaging nearby enemies.<br>While death immune, the <span class=\"highlight\">rate of the damage pulse</span> is greatly increased."
+		"upgrade_cheat_death_unkillable_passive"	"Wenn Du tödlichen Schaden erleiden würdest, wirst Du stattdessen <span class=\"highlight\">temporär unsterblich</span>.<br><br>Während Du unsterblich bist, fügst Du <span class=\"highlight\">reduzierten Schaden</span> zu. Außerdem sind Deine <span class=\"highlight\">Heilungseffekte reduziert</span> und Du <span class=\"highlight\">bewegst Dich langsamer</span>."
+		"DeathImmunityDuration_label"	"Unsterblichkeitsdauer"
+		"DeathImmunityDuration_postfix"	" s"
+		//"DeathImmunityPulseRateMultiplier_label"	"Death Immunity Pulse Rate"
+		//"DeathImmunityPulseRateMultiplier_postfix"	"x"
+		"modifier_cheat_death_immunity"	"Unsterblichkeit"
+		"DeathImmunityDamageReduction_label"		"Schadensreduzierung"
+		"DeathImmunityDamageReduction_postfix"		" %"
+
+		//Healing Booster
+		"upgrade_healing_booster_desc"		"Erhöht die Effektivität Deiner <span class=\"highlight\">Heilung</span> um <span class=\"highlight\">{s:HealAmpRegenPercent} %</span>."
+
+		//Extra Health
+		//"upgrade_health_desc"							"Increase <span class=\"highlight\">health</span>."
+		
+		//Melee Knockdown
+		//"upgrade_proc_melee_stun_desc"					"The 3rd hit of your <span class=\"highlight\">melee combo</span> will <span class=\"highlight\">stun</span> enemies."
+
+		//Debuff Reducer
+		"upgrade_debuff_reducer_desc"			"Reduziert die <span class=\"highlight\">Dauer</span> aller Schwächungseffekte, die auf Dich wirken."
+
+		//Debuff Remover
+		"upgrade_reduce_debuff_duration_active_desc"	"<span class=\"highlight\">Entfernt alle Schwächungseffekte von nicht-ultimativen Fähigkeiten</span>, die aktuell auf Dich wirken. Falls ein Schwächungseffekt entfernt wurde, <span class=\"highlight\">heilst Du Dich</span> und erhältst zusätzliches <span class=\"highlight\">Bewegungstempo</span>.<br><span class=\"diminish\">Kann nicht eingesetzt werden, wenn Du betäubt oder in Schlaf versetzt wurdest.</span>"
+		"HealOnActivate_label"		"geheilte LP bei Aktivierung"
+
+		//High Impact Armor
+		//"upgrade_high_impact_armor_desc"				"Provides protection against high-damage bullets. Any <span class=\"highlight\">bullet damage</span> portion above the threshold is reduced by {s:DamageReduction}%."
+		//"damage_reduction_label"						"Damage Reduction"
+		"damage_reduction_postfix"						" %"
+
+		//Decay
+		"upgrade_rupture_desc"				"Fügt einem Ziel <span class=\"highlight\">Kontinuierlich Schaden</span> zu. Der zugefügte Schaden basiert auf dessen aktuellen Lebenspunkten."
+		"upgrade_rupture/modifier_rupture"	"Verfall"
+		"HealReductionDuration_label"		"Dauer der Heilungsreduzierung"
+		"HealReductionDuration_postfix"		" s"
+		//"modifier_citadel_rupture"				"Ruptured - Don't Move"
+
+		//Discord
+		"upgrade_discord_desc"						"Kann auf ein ausgewähltes verbündetes Ziel angewendet werden. Gewährt <span class=\"highlight\">Magieresistenz</span> und eine Aura, die Gegnern <span class=\"highlight\">{g:citadel_inline_attribute:'SpiritIcon'} Magieschaden</span> basierend auf deren max. Lebenspunkte zufügt.<br>Kann auf sich selbst angewendet werden."
+		"MaxHealthPercentAsDPS_label"				"max. LP pro Sek."
+		"MaxHealthPercentAsDPS_postfix"				" %"
+		//"MaxHealthPercentAsHealPerSecond_label"		"Max Health per second"
+		//"MaxHealthPercentAsHealPerSecond_postfix"	"%"
+		
+		//Tech Absorber
+		//"upgrade_spell_absorb_desc"					"<span class=\"highlight\">Blocks</span> a targeted ability."
+		
+		//Spirit Armor
+		//"upgrade_tech_armor_desc"						"Reduces the damage you take from <span class=\"highlight\">Spirit</span> abilities."
+
+		//Spirit Armor+
+		//"upgrade_tech_armor_2_desc"					"Reduces the damage you take from <span class=\"highlight\">Spirit</span> abilities."
+		
+		//Bullet Deflector Shield
+		//"upgrade_deflector_shield_desc"				"Adds <span class=\"highlight\">bullet armor</span>, and provides a shield that absorbs bullet damage. Shield regens out of combat (10s no damage)."
+		
+		//Fortitude
+		"upgrade_chonky_desc"							"Wenn Du <span class=\"highlight\">{s:RestoreDelay} s</span> keinen Schaden erlitten hast, erhöht sich die auf Deinen <span class=\"highlight\">max. Lebenspunkten basierende Regeneration um {s:HealLifePercentOutOfCombat} %</span>."
+		"upgrade_chonky_high_health_passive_desc"		"Du erhältst zusätzlichen <span class=\"highlight\">Waffenschaden</span> und zusätzliches <span class=\"highlight\">Bewegungstempo</span>, wenn Du über <span class=\"highlight\">mehr als {s:HealthThreshold} % der Lebenspunkte verfügst</span>."
+		//"upgrade_out_of_combat_health_regen/modifier_citadel_armor_out_of_combat_health_regen"		"Metabolic Nanites"
+
+		//Leech
+		"upgrade_damage_recycler_desc"				"Reduziert die Effektivität von durch Gegner zugefügte <span class=\"highlight\">Heilungsreduzierung</span>."
+		"LeechHealOnKill_prefix"					"+"
+		"LeechHealOnKill_label"						"Heilung (max. LP) bei Kill"
+		"LeechHealOnKill_postfix"					" %"
+		
+		//Rebirth
+		"upgrade_personal_rejuvenator_desc"		"Lässt den Helden am Ort seines Todes wiedereinsteigen."
+		//"RespawnDelay_label"							"Respawn Delay"
+		"RespawnDelay_postfix"						" s"
+		"SpawnTimePenalty_prefix"				"+"
+		"SpawnTimePenalty_label"				"erhöhte Wiedereinstiegszeit"
+		"SpawnTimePenalty_postfix"				" s"
+
+		//Phantom Strike
+		"upgrade_phantom_strike_desc"			"<span class=\"highlight\">Teleportiert</span> Dich zu einem gegnerischen Ziel und zieht es auf den Boden herab. Das Ziel erleidet <span class=\"highlight\">Schaden</span>, wird <span class=\"highlight\">entwaffnet</span> und dessen <span class=\"highlight\">Bewegungstempo</span> wird reduziert."
+		"PhantomStrikeDebuffDuration_label"		"Schwächungs­dauer"
+		"PhantomStrikeDebuffDuration_postfix"		" s"
+		"modifier_phantom_strike_bulletshield"		"Schild gegen Kugelschaden"
+
+		//Soul Rebirth
+		"upgrade_rebirth_passive"				"Falls Du stirbst, steigst Du nach {s:RespawnDelay} s mit einem Teil Deiner Lebenspunkte <span class=\"highlight\">wieder an Deinem Todesort ein</span>."
+		
+		//Shield Rush
+		//"upgrade_active_bullet_shield_desc"				 "Give temporary <span class=\"highlight\">bullet shield</span> for you and nearby allied Heros and their minions."
+		//"upgrade_active_bullet_shield/modifier_duration" "Bullet Barrier"
+
+		//Weapon Jammer
+		//"upgrade_bullet_damage_reduction_aura_desc"		"Reduces the <span class=\"highlight\">Fire Rate</span> of all nearby enemies."
+		//"modifier_fire_rate_reduction_aura"							"Weapon Jammer"
+		//"upgrade_bullet_damage_reduction_aura/modifier_base_aura/aura_target_modifier"				"Slowed Attack Speed"
+		//"upgrade_fire_rate_reduction_aura/modifier_base_aura/aura_target_modifier"	"Fire Rate Reduction Aura"
+		
+		//Return Fire
+		"upgrade_return_fire_desc"					"Du <span class=\"highlight\">feuerst automatisch eine Kugel</span> auf einen beliebigen Angreifer, der Dir mit seinen Fähigkeiten oder seiner Waffe Schaden zufügt."
+		"modifier_armor_return_fire"				"Feuererwiderung"
+		"ActiveFireRate_label"						"Feuerrate"
+		"ActiveFireRate_postfix"						" %"
+		//"modifier_citadel_basicdamagereflect" 	"Reflecting Damage"
+
+		//Metal Skin
+		"upgrade_metal_skin_desc"						"Du wirst immun gegen <span class=\"highlight\">Kugelschaden</span>."
+		//"AbilityApplyDelay_label"						"Application Time"
+		"AbilityApplyDelay_postfix"						" s"
+		"modifier_citadel_metal_skin"								"Metallhaut"
+
+		//Regenerative Armor
+		//"upgrade_regenerative_armor_desc"	"Gain a short burst of health regeneration when taking bullet damage from heroes"
+
+		//Battle Vest
+		"upgrade_regenerating_bullet_shield_desc"	"Du erhältst <span class=\"highlight\">{g:citadel_inline_attribute:'WeaponDamage'}</span> und <span class=\"highlight\">{g:citadel_inline_attribute:'BonusFireRate'}</span>, wenn Du über <span class=\"highlight\">mehr als {s:LifeThreshold} % der Lebenspunkte verfügst</span>."
+
+		//Enchanter's Emblem
+		"upgrade_magic_shield_desc"		"Du erhältst <span class=\"highlight\">{g:citadel_inline_attribute:'Spirit'}</span> und <span class=\"highlight\">Abklingzeitreduzierung</span>, wenn Du über <span class=\"highlight\">mehr als {s:LifeThreshold} % der Lebenspunkte verfügst</span>."
+		
+		// "upgrade_weapon_shielding"						"Emergency Shielding"
+		"upgrade_weapon_shielding_desc"			"Immer wenn Du erheblichen {g:citadel_inline_attribute:'WeaponDamage'} von gegnerischen Helden in einem kurzen Zeitraum erleidest, erhältst Du eine <span class=\"highlight\">Barriere</span>."
+		"DamageWindow_label"								"Zeitraum"
+		"DamageWindow_postfix"								" s"
+		
+		// "upgrade_spirit_bubble"							"Spirit Bubble"
+		"upgrade_spirit_bubble_desc"			"Immer wenn Du erheblichen {g:citadel_inline_attribute:'SpiritDamage'} von gegnerischen Helden in einem kurzen Zeitraum erleidest, erhältst Du eine <span class=\"highlight\">Barriere</span>."
+
+		//Aerial Assault
+		//"upgrade_aerial_assault_active"		"<span class=\"highlight\">Launch straight up</span> high into the air. While in the air you will pause your aerial movement for {s:AssaultDuration}s</span>.  During this time you gain <span class=\"highlight\">+{s:AssaultLifestealPercent}% bullet lifesteal</span>, <span class=\"highlight\">unlimited clip</span>, <span class=\"highlight\">+{s:AssaultFireRate}% fire rate</span>, and bullets that <span class=\"highlight\">explode</span> in a {s:ExplodeRadius}m radius."
+		//"upgrade_aerial_assault/modifier_aerial_assault_watcher/modifier_aerial_assault"		"Aerial Assault"
+		//"modifier_aerial_assault"					"Aerial Assault"
+		
+		//Combo Breaker
+		//"upgrade_combo_breaker_desc"		"<span class=\"highlight\">Remove all debuffs</span> and heal yourself. <br><span class=\"highlight\">Can be used while stunned.</span>"
+		//"upgrade_combo_breaker/modifier_combo_breaker"	"Combo Breaker"
+
+		//Unstoppable - Deprecated
+		//"upgrade_slow_immunity_desc"					"Purges any roots and chains on use and makes you immune to slows for the duration"
+		"modifier_slow_immunity"						"Unaufhaltsam"
+
+		//Unstoppable
+		"upgrade_unstoppable_desc"				"Unterdrückt temporär <span class=\"highlight\">Schwächungseffekte</span>. Du kannst <span class=\"highlight\">nicht</span> <span class=\"highlight\">betäubt, verstummt, in Schlaf versetzt, festgesetzt und entwaffnet</span> werden.<br>Kann nicht aktiviert werden, wenn <span class=\"highlight\">betäubt</span> oder <span class=\"highlight\">in Schlaf versetzt</span>."
+		"modifier_unstoppable"							"Unaufhaltsam"
+
+		//Colossus
+		"upgrade_colossus_desc"			"Du erhältst <span class=\"highlight\">Kugel- und Magieresistenz</span>. Das <span class=\"highlight\">Bewegungs- und Spurttempo</span> von Gegnern in der Nähe wird <span class=\"highlight\">verlangsamt</span>. Dein Heldenmodell vergrößert sich um 20 %."
+		"modifier_colossus_active"		"Koloss"
+		"BuffBulletResist_label"		"Kugelresistenz"
+		"BuffBulletResist_postfix"		" %"
+		"BuffTechResist_label"			"Magieresistenz"
+		"BuffTechResist_postfix"		" %"
+
+		//Ablative Coat
+		//"upgrade_ablative_coat_desc"			"Provides <span class=\"highlight\">Bullet Resist</span> but you lose some each time you take Weapon Damage. Loss can only happen once every {s:StackLossFrequency}s. Bullet Resist is restored when out of combat."
+		//"upgrade_ablative_coat_innate"			"Increases your <span class=\"highlight\">forward move speed</span> over time. If Ablative Coat is reduced to 0 Bullet Resist, taking damage will reset the effect for <span class=\"highlight\">1.5s</span>"
+
+		// Rebuttal - upgrade_melee_rebuttal
+		"upgrade_melee_rebuttal_desc"				"Wenn Du einen Nahkampfangriff eines gegnerischen Helden erfolgreich <span class=\"highlight\">parierst</span>, wirst Du um den parierten Schaden <span class=\"highlight\">geheilt</span> und fügst dem Ziel denselben Schaden zu. Das Ziel erleidet temporär <span class=\"highlight\">erhöhten Nahkampfschaden</span>."
+		"BuffMeleeDamageBoost_label"					"Nahkampfschaden"
+		"BuffMeleeDamageBoost_postfix"					" %"
+		"BuffMeleeDamageBoost_prefix"					"+"
+
+		// Counterspell
+		"upgrade_counterspell_desc"				"Deine nächste Parade <span class=\"highlight\">negiert den Schaden und die Effekten von gegnerischen Fähigkeiten und Gegenständen</span>. Wenn ein Zauber erfolgreich pariert wurde, erhältst Du <span class=\"highlight\">Bewegungstempo</span> und <span class=\"highlight\">Magiekraft</span>."
+		
+		"ParrySuccessHealPercentage_label"					"parierter Schaden als Heilung"
+		"ParrySuccessHealPercentage_postfix"					" %"
+
+		// 
+		// "upgrade_tech_purge"  // "Spirit Resilience"
+		"upgrade_tech_purge_desc"	"Du erhältst zusätzliche <span class=\"highlight\">Magieresistenz</span>, wenn Du über <span class=\"highlight\">weniger als {s:LifeThreshold} % der Lebenspunkte</span> verfügst."
+
+		// "upgrade_improved_bullet_armor" // "Bullet Resilience"
+		"upgrade_improved_bullet_armor_desc"	"Du erhältst zusätzliche <span class=\"highlight\">Kugelresistenz</span>, wenn Du über <span class=\"highlight\">weniger als {s:LifeThreshold} % der Lebenspunkte</span> verfügst."
+
+		// Spellbreaker
+		"upgrade_spellbreaker_desc"				"Die nächste Instanz von hohem Magieschaden, den Du erleidest, wird erheblich reduziert."
+		"SpiritDamageReductionProc_label"		"Magieschadens­reduzierung"
+		"SpiritDamageReductionProc_postfix"		" %"
+
+		"upgrade_juggernaut_slow_desc"			"Verlangsamt die <span class=\"highlight\">Feuerrate</span> von Gegnern, die auf Dich schießen."
+		"FireRateSlowDuration_label"			"Dauer"
+		"FireRateSlowDuration_postfix"			" s"
+
+		//"upgrade_trophy_collector"			"Trophy Collector"
+		"upgrade_trophy_collector_desc"			"Immer wenn Du einen <span class=\"highlight\">Assist oder Kill</span> erzielst, erhältst Du zusätzliche <span class=\"highlight\">LP</span>, <span class=\"highlight\">Spurts</span>, <span class=\"highlight\">Fähigkeitsreichweite</span> und <span class=\"highlight\">passive Seelen</span>. Dieser Effekt summiert sich auf und bleibt über den Tod hinaus bestehen."
+		"StackingGoldPerMinute_label"			"Seelen pro Minute"
+		
+		
+		//-----------------------------------------------------------------------------
+		// Upgrades: Utility
+		//----------------------------------------------------------------------------- 
+		
+		//Sprint Boots
+		//"upgrade_sprint_booster_desc"				"Increases your <span class=\"highlight\">forward move speed</span> over time. Taking damage resets the effect for <span class=\"highlight\">1.5s</span>"
+
+		//Superior Stamina
+		"upgrade_superior_stamina_passive"			"Du kannst einen zusätzlichen <span class=\"highlight\">Luftsprung</span> oder <span class=\"highlight\">Luftspurt</span> vor der Landung ausführen."
+
+		//Enduring Speed
+		"upgrade_cardio_calibrator_desc"			"Reduziert gegnerische Schwächungseffekte, die Dein <span class=\"highlight\">Bewegungstempo</span> beeinflussen."
+
+		//Health Nova
+		"upgrade_health_nova_desc"					"<span class=\"highlight\">Heilt</span> Dich und Verbündete in der Nähe."
+		"modifier_health_nova"					"Heilungswelle"
+
+		//Fast Reload
+		//"upgrade_reload_speed_desc"					"Increased <span class=\"highlight\">reload speed</span>."
+		
+		//Cloaking Device
+		//"upgrade_cloaking_device_desc"				"Become <span class=\"highlight\">invisible</span>. Nearby enemies will temporaily reveal the hero.  Attacking or taking damage will remove the invisibility for {s:AbilityCooldown}s."
+		//"upgrade_cloaking_device/modifier_citadel_passive_cloak"									"Cloaking Device"
+		//"upgrade_cloaking_device/modifier_citadel_passive_cloak/modifier_invis"						"Stealthed"
+		//"upgrade_cloaking_device_active/modifier_invis"												"Stealthed"
+
+		//Shadow Weave
+		"upgrade_cloaking_device_active_desc"		"Du wirst <span class=\"highlight\">getarnt</span>. Immer wenn Du im getarnten Zustand Schaden erleidest, wirst Du für kurze Zeit enttarnt."
+		"upgrade_cloaking_device_active_ambush_desc"	"<br>Wenn Du angreifst oder eine Fähigkeit einsetzt, wirst Du enttarnt und gehst in den <span class=\"highlight\">Hinterhalt</span> über, wodurch Du für kurze Zeit zusätzliche <span class=\"highlight\">Feuerrate</span> und <span class=\"highlight\">Magiekraft</span> erhältst."
+		"modifier_cloaking_device_active_stealth"		"Schattenwandel – Tarnung"
+		"modifier_cloaking_device_active_ambush"		"Schattenwandel – Hinterhalt"
+		"AmbushBonusTechPower_prefix"					"+"
+		"AmbushBonusTechPower_label"					"Magiekraft während Hinterhalt"
+		"AmbushBonusFireRate_prefix"					"+"
+		"AmbushBonusFireRate_label"					"Feuerrate während Hinterhalt"
+		"AmbushBonusFireRate_postfix"					" %"
+		"AmbushDuration_label"						"Dauer für Hinterhalt"
+		"AmbushDuration_postfix"						" s"
+		"StealthDuration_label"						"Tarnungsdauer"
+		"StealthDuration_postfix"						" s"
+		"SpottedRadius_label"						"Enttarnungsradius"
+		"SpottedRadius_postfix"						" m"
+		//"modifier_aoe_smoke_bomb"					"Smoke"
+		//"upgrade_aoe_smoke_bomb/modifier_invis"														"Stealthed"
+
+		//Zip Line Mastery
+		//"upgrade_zipine_mastery_desc"				"Zip line speed <span class=\"highlight\">accelerates</span> and allows you to use <span class=\"highlight\">neutral</span> zip lines and capture them while zip lining.  Provides a movement speed bonus when jumping off a zip line whose duration increases the longer you are on the zip line."
+		
+		//Majestic Leap - Disabled
+		//"upgrade_rocket_boots_desc"					"<span class=\"highlight\">Launch yourself</span> high into the air. Cannot be used for {s:InteruptCooldown}s if damaged by enemy Hero."
+		
+		//Majestic Leap
+		"upgrade_rocket_booster_desc"				"<span class=\"highlight\">Schießt Dich hoch in die Luft</span> und gewährt Dir eine <span class=\"highlight\">Barriere</span>. Während Du in der Luft bist, kannst Du die Fähigkeit erneut aktivieren, um schnell nach unten zu fallen.<br><br><span class=\"diminish\">Kann für {s:InteruptCooldown} s nicht aktiviert werden, nachdem Du Schaden von einem gegnerischen Helden erlitten hast.</span>"
+		"upgrade_rocket_booster_drop_down"			"Fallen lassen"
+		
+		//Smoke
+		//"upgrade_aoe_smoke_bomb_desc"				"Give you and teammates <span class=\"highlight\">invisibility</span> and a <span class=\"highlight\">move speed</span> bonus.  Attacking or taking damage will remove the invisibility.<br>Cast delay: {s:AbilityCastDelay}s."
+		
+		//EMP Grenade
+		//"upgrade_aoe_silence_desc"					"Throw a grenade that <span class=\"highlight\">silences</span> enemies and lowers their <span class=\"highlight\">spirit resistance</span>."
+		//"modifier_aoe_silence"										"Silenced - Abilities Disabled"
+		
+		//Tech Defender
+		//"upgrade_debuff_absorb_desc"				"Shield against <span class=\"highlight\">all spirit damage and debuffs</span>."
+
+		//Tech Defender
+		//"upgrade_tech_defender_active"		"Protect against <span class=\"highlight\">all spirit damage and debuffs</span>."
+		//"upgrade_tech_defender/modifier_debuff_immunity"			"Immune to Debuffs"
+
+		//Drain Will
+		//"upgrade_disarm_desc"			"Fires a projectile which reduces the <span class=\"highlight\">Fire Rate</span> of the target and <span class=\"highlight\">steals Spirit</span>."
+		//"SpiritSteal_label"				"Spirit Power Steal"
+		//"SpiritStealDuration_label"		"Spirit Power Steal Duration"
+		"SpiritStealDuration_postfix"	" s"
+		//"modifier_citadel_active_disarm_spirit_steal"	"Drain Will"
+
+		//Reactive Barrier
+		"upgrade_vex_barrier_desc"		"<span class=\"highlight\">Stellt automatisch 1 Ausdauerbalken wieder her</span> und gewährt eine <span class=\"highlight\">Barriere</span>, wenn Deine <span class=\"highlight\">Bewegung eingeschränkt wird</span> oder Du <span class=\"highlight\">betäubt, angekettet, festgesetzt oder in Schlaf versetzt</span> wirst."
+		"upgrade_vex_barrier_shield"	"Reaktiver Schild"
+
+		//Spell Shield
+		"upgrade_spellshield_desc"		"Blockt den nächsten verursachten <span class=\"highlight\">Magieschaden</span> oder die nächste gewirkte <span class=\"highlight\">Schwächung</span> und verhindert den Effekt. Regeneriert sich nur außerhalb des Kampfes."
+		"upgrade_spellshield_shield"	"Antimagiesiegel"
+		"upgrade_spellshield/modifier_spellshield_buff"  "Konterfluchschutz"
+		"upgrade_spellshield/modifier_spellshield_linger_buff"  "Konterfluchschutz gebrochen!"
+		"SpellShieldFlavorText_label"	"Label!"
+
+		//Heal On Level
+		"upgrade_heal_on_level_desc"	"Wenn Du eine <span class=\"highlight\">Gabe</span> erhälts, wirst Du automatisch <span class=\"highlight\">geheilt</span>."
+		"upgrade_heal_on_level_buff"	"Heilung bei Levelaufstieg"
+		"HealOnlevelHealAmount_label"	"Heilung"
+		"upgrade_heal_on_level/heal_on_level_buff"			"Heilung bei Levelaufstieg"
+
+		//Absorbing armor / witchmail
+		"upgrade_absorbing_armor_desc" "Wenn Du erheblichen {g:citadel_inline_attribute:'SpiritDamage'} von einem Gegner erleidest, reduziert sich eine <span class=\"highlight\">zufällige Fähigkeitsabklingzeit</span>."
+
+		//Healing Buff
+		"upgrade_healbuff_desc" "Wenn Du oder ein Verbündeter {g:citadel_inline_attribute:'Heal'} erhalten, wird dem entsprechenden Ziel auch {g:citadel_inline_attribute:'BonusFireRate'} und {g:citadel_inline_attribute:'BonusMoveSpeed'} gewährt.<br><br><span class=\"diminish\">Wird nicht durch eigene Regeneration sowie eigenen Kugel- und Lebensraub ausgelöst.</span>"
+		"upgrade_healbuff/modifier_healbuff/modifier_healbuff_buff" "Heilungstempo"
+
+		//MISC
+		//"upgrade_explosive_bullets/modifier_explosive_bullets/modifier_citadel_base_buildup"	"Explosive Rounds"
+		//"ExplosiveDamage_label"							"Explosive Damage"
+		//"BuildUpMaxDamage_label"						"Build Up Damage"
+		//"BuildUpMaxDamageNonHero_label"					"Build Up Non-Hero"
+
+		//Infinite Magazine
+		"upgrade_infinitemagazine_desc" "Du erhältst <span class=\"highlight\">unendlich Munition</span> und {g:citadel_inline_attribute:'BonusFireRate'}."
+		"upgrade_infinitemagazine/modifier_infinite_magazine_active" "Endloses Magazin"
+
+
+		//APRounds
+		"upgrade_aprounds_desc" "Deine Kugeln haben eine Chance, dass Gegner ihnen nicht ausweichen können, diese <span class=\"highlight\">durchdringen</span> und deren <span class=\"highlight\">Kugelresistenz ignorieren</span>."
+
+		//Deflecting Armor
+		"upgrade_deflecting_armor_desc" "Du erhälts eine Chance, eingehende Kugeln abzulenken, wodurch der gesamte {g:citadel_inline_attribute:'WeaponDamage'} negiert wird, oder alle <span class=\"highlight\">Treffereffekte</span> von Kugeln zu negieren."
+		"DeflectionPercent_label" "Chance auf Ablenkung"
+		"DeflectionPercent_postfix" " %"	
+		
+		"BulletProcDeflectionPercent_label" "Chance auf Effektnegierung"
+		"BulletProcDeflectionPercent_postfix" " %"
+
+	}
+}

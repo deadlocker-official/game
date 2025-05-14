@@ -1,0 +1,244 @@
+﻿"lang"
+{
+	"Language"		"polish"
+	"Tokens"
+	{
+
+		//-----------------------------------------------------------------------------
+		// hero_astro
+		//-----------------------------------------------------------------------------
+		"Citadel_PatchNotes_HeroLabs_hero_astro_1" "<b>24.10.2024</b><br>
+			<li>Dodano bohatera do laboratoriów bohaterów.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_astro_2" "<b>29.10.2024</b><br>
+			<li><i>Trampolina</i>: od teraz prawidłowo zadaje obrażenia w obszarze przy lądowaniu.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_astro_3" "<b>07.11.2024</b><br>
+			<li><i>Trampolina</i>: zaktualizowano w sposób umożliwiający tylko jedno zdeptanie na trampolinę.</li>
+			<li><i>Trampolina</i>: sojusznicy nie otrzymują już efektów cząsteczkowych po trafieniu trampoliny.</li>
+			<li><i>Broń</i>: zaktualizowano efekty specjalne zestawów broni.</li>
+			<li><i>Beczka Prochu</i>: zredukowano przeszkody dla efektów wizualnych z bliska.</li>
+			<li><i>Celne Oko</i>: zredukowano przeszkody dla efektów wizualnych dla ofiary.</li>"
+
+		//-----------------------------------------------------------------------------
+		// hero_nano
+		//-----------------------------------------------------------------------------
+		"Citadel_PatchNotes_HeroLabs_hero_nano_1" "<b>24.10.2024</b><br>
+			<li>Dodano bohaterkę do laboratoriów bohaterów.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_nano_2" "<b>29.10.2024</b><br>
+			<li><i>Broń</i>: zmniejszono czas przeładowania z 3,5 do 3 sekund.</li>
+			<li><i>Broń</i>: zmniejszono rozmiar magazynka z 18 do 16 nabojów.</li>
+			<li><i>Broń</i>: zwiększono obrażenia od nabojów ataku alternatywnego z 6 do 7 pkt.</li>
+			<li><i>Duch Sechmet</i>: od teraz można zdetonować natychmiastowo po użyciu.</li>
+			<li><i>Duch Sechmet</i>: od teraz podbija do góry tylko te cele, które zostały schwytane przez biegnącego kota.</li>
+			<li><i>Nekomata-stróż</i>: nie ma już ładunków.</li>
+			<li><i>Nekomata-stróż</i>: od teraz ma swój własny zasięg ataku – 30 metrów.</li>
+			<li><i>Nekomata-stróż</i>: skrócono czas trwania ze 120 do 60 sekund.</li>
+			<li><i>Nekomata-stróż</i>: zmniejszono skalowanie obrażeń na sekundę ze spirytualizmu z 0,4 do 0,3.</li>
+			<li><i>Nekomata-stróż</i>: zmniejszono skalowanie zdrowia ze spirytualizmu z 3,0 do 2,0.</li>
+			<li><i>Nekomata-stróż</i>: zmieniono 2. stopień ulepszenia z dodatkowych ładunków na +30 sekund do czasu trwania.</li>"
+
+		//-----------------------------------------------------------------------------
+		// hero_wrecker
+		//-----------------------------------------------------------------------------
+		"Citadel_PatchNotes_HeroLabs_hero_wrecker_1" "<b>24.10.2024</b><br>
+			<li>Dodano bohatera do laboratoriów bohaterów.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_wrecker_2" "<b>07.11.2024</b><br>
+			<li><i>Broń</i>: zwiększono pojemność magazynka z 10 do 15 nabojów.</li>
+			<li><i>Broń</i>: zwiększono liczbę nabojów na sekundę z 2,86 do 4.</li>
+			<li><i>Broń</i>: zmniejszono obrażenia od nabojów z 25 do 21 pkt.</li>
+			<li><i>Burząca Kula</i>: od teraz eksploduje po zetknięciu.</li>
+			<li><i>Burząca Kula</i>: zwiększono bazowe obrażenia z 80 do 150 pkt.</li>
+			<li><i>Burząca Kula</i>: zwiększono prędkość kuli z 1500 do 2000 jednostek.</li>
+			<li><i>Burząca Kula</i>: zwiększono siłę kuli z 280 do 1500 jednostek</li>
+			<li><i>Burząca Kula</i>: wydłużono czas rzutu kuli z 1,2 do 1,4 s.</li>
+			<li><i>Burząca Kula</i>: zwiększono skalowanie spirytualizmu z 1 do 1,4 pkt.</li>
+			<li><i>Burząca Kula</i>: wydłużono bazowy czas oczekiwania z 21 do 31 s.</li>
+			<li><i>Konsumpcja</i>: zaktualizowano umiejętność, by dało się jej używać na wszystkich wrogach.</li>
+			<li><i>Konsumpcja</i>: już nie ogłusza ani nie unosi celów w powietrze.</li>
+			<li><i>Konsumpcja</i>: zredukowano obrażenia na sekundę z 80 do 40 pkt.</li>
+			<li><i>Konsumpcja</i>: zmieniono 1. ulepszenie, by przyznawało 75% leczenia z zadanych obrażeń.</li>
+			<li><i>Konsumpcja</i>: zmniejszono premię do obrażeń na sekundę z 2. ulepszenia z +80 na +40 pkt.</li>
+			<li><i>Konsumpcja</i>: zmieniono 3. ulepszenie, by przyznawało 2 dodatkowe cele.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_wrecker_3" "<b>21.11.2024</b><br>
+			<li><i>Burząca Kula</i>: od teraz można wykonać skok o zredukowanej wysokości podczas trzymania kuli.</li>
+			<li><i>Burząca Kula</i>: zmniejszono promień aktywacji z 92 do 65.</li>
+			<li><i>Konsumpcja</i>: wprowadzono nowe zmiany wizualne.</li>
+			<li><i>Konsumpcja</i>: zwiększono bazowe obr./s z 40 do 60 pkt.</li>
+			<li><i>Konsumpcja</i>: zwiększono zasięg rzutu z 12 do 15 m.</li>
+			<li><i>Konsumpcja</i>: od teraz maksymalny zasięg wynosi 20 m.</li>
+			<li><i>Konsumpcja</i>: od teraz wymaga pola widzenia, by pozostać przyczepionym.</li>
+			<li><i>Konsumpcja</i>: już nie przerywa ruchu wroga.</li>
+			<li><i>Konsumpcja</i>: usunięto wzmocnienie szybkostrzelności.</li>
+			<li><i>Konsumpcja</i>: dodano 50% wartości leczenia bazowego.</li>
+			<li><i>Konsumpcja</i>: zmniejszono premię do leczenia z 1. ulepszenia z 75% do 25%.</li>
+			<li><i>Biologiczny Wybuch</i>: zwiększono zasięg z 5 do 10 m.</li>
+			<li><i>Biologiczny Wybuch</i>: wprowadzono pomniejszą aktualizację stożka celowania.</li>
+			<li><i>Biologiczny Wybuch</i>: usunięto efekt przyciemnienia ekranu przy rzucie.</li>
+			<li><i>Astralna Przechadzka</i>: usunięto. Zmieniono na nową umiejętnośc ostateczną: <i>Przeciążenie</i>.</li>
+			<li><i>Przeciążenie</i>: wprowadzono nowe zmiany wizualne.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_wrecker_4" "<b>06.12.2024</b><br>
+			<li><i>Burząca Kula</i>: przerobiono zachowanie umiejętności.</li>
+			<li><i>Buząca Kula</i>: nowe aktualizacje graficzne.</li>
+			<li><i>Przeciążenie</i>: zwiększono dystans oddalenia kamery.</li>
+			<li><i>Przeciążenie</i>: zmieniono 2. ulepszenie na skrócenie czasu oczekiwania o 35 sekund.</li>
+			<li><i>Przeciążenie</i>: od teraz uwzględnia spowolnienie ruchu w opisie i interfejsie.</li>"
+		//-----------------------------------------------------------------------------
+		// hero_trapper
+		//-----------------------------------------------------------------------------
+		"Citadel_PatchNotes_HeroLabs_hero_trapper_1" "<b>07.11.2024</b><br>
+			<li>Dodano bohatera do laboratoriów bohaterów.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_trapper_2" "<b>08.11.2024</b><br>
+			<li><i>Przędzona Pułapka:</i> naprawiono błąd powodujący, że efekt nici czasem stawał się niewidzialny.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_trapper_3" "<b>21.11.2024</b><br>
+			<li><i>Fantazmocyd w Butelce:</i> zredukowano promień początkowy z 5 do 3 m.</li>
+			<li><i>Fantazmocyd w Butelce:</i> skrócono czas trwania z 9 do 8 s.</li>
+			<li><i>Fantazmocyd w Butelce:</i> wydłużono bazowy czas oczekiwania z 20 do 25 s.</li>
+			<li><i>Fantazmocyd w Butelce:</i> zmieniono 1. ulepszenie na -20% obrażeń spirytualnych przeciwko celom znajdującym się w kałuży trucizny.</li>
+			<li><i>Fantazmocyd w Butelce:</i> zmieniono 2. ulepszenie na +4 s czasu trwania.</li>
+			<li><i>Przędzona Pułapka:</i> od teraz można obierać za cel stwory i szturmowców.</li>
+			<li><i>Przędzona Pułapka:</i> rozwiązano problem, w którym pułapka zadawała obrażenia z drugiej strony muru.</li>
+			<li><i>Przędzona Pułapka:</i> rozwiązano problem, w którym pułapka niekiedy się nie pojawiała.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_trapper_4" "<b>24.11.2024</b><br>
+			<li><i>Fantazmocyd w Butelce:</i> zmieniono sposób przeliczania wzrostu, by stanowił stałe zwiększenie promienia na sekundę skalujące się z zasięgiem umiejętności.</li>
+			<li><i>Przędzona Pułapka:</i> ulepszono efekty wizualne podglądu.</li>
+			<li><i>Przędzona Pułapka:</i> rozwiązano problem, w którym pułapka niekiedy się nie pojawiała.</li>
+			<li><i>Przędzona Pułapka:</i> od teraz ma wymaganą minimalną długość pułapki.</li>
+			<li><i>Przędzona Pułapka:</i> od teraz 3. ulepszenie ucisza na 2,5 s zamiast rozbrajać na 4 s.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_trapper_5" "<b>06.12.2024</b><br>
+			<li><i>Fantazmocyd w Butelce:</i> wydłużono początkowy promień z 3 do 4,5 m.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_trapper_6" "<b>20.02.2025</b><br>
+			<li><i>Fantazmocyd w Butelce:</i> wydłużono początkowy promień z 4,5 do 6 m.</li>
+			<li><i>Fantazmocyd w Butelce:</i> nie zadaje już obrażeń, ale ucisza wszystkich wrogów na obszarze.</li>
+			<li><i>Fantazmocyd w Butelce:</i> wydłużono czas oczekiwania z 25 do 30 s.</li>
+			<li><i>Fantazmocyd w Butelce:</i> od teraz 3. ulepszenie rozrywa odporność spirytualną o 25%.</li>
+			<li><i>Fantazmocyd w Butelce:</i> zaktualizowano skalowanie się mocy spirytualnej, by zwiększyć wartość spowolnienia.</li>
+			<li><i>Przędzona Pułapka:</i> od teraz zadaje obrażenia okresowe.</li>
+			<li><i>Przędzona Pułapka:</i> od teraz ujawnia przeciwników aktywujących pułapkę.</li>
+			<li><i>Przędzona Pułapka:</i> wydłużono początkowy czas trwania z 60 do 120 s</li>
+			<li><i>Przędzona Pułapka:</i> wydłużono czas trwania osłabienia z 2 do 3 s.</li>
+			<li><i>Przędzona Pułapka:</i> od teraz 3. ulepszenie wydłuża tekst czas trwania osłabienia o 2 s.</li>"
+
+		//-----------------------------------------------------------------------------
+		// hero_slork
+		//-----------------------------------------------------------------------------
+		"Citadel_PatchNotes_HeroLabs_hero_slork_1" "<b>24.10.2024</b><br>
+			<li>Dodano bohatera do laboratoriów bohaterów.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_slork_2" "<b>29.10.2024</b><br>
+			<li><i>Broń</i>: zmniejszono obrażenia na śrucinę z 5 do 4,5 pkt.</li>
+			<li><i>Broń</i>: zwiększono rozrzut śrucin i zmniejszono skuteczny zasięg broni z 20 do 18 metrów.</li>
+			<li><i>Parzący Plusk</i>: zaktualizowano efekt cząsteczkowy, by nie zasłaniał Fathomowi widoku oraz dodano efekt po trafieniu.</li>
+			<li><i>Wyłom</i>: od teraz można używać innych umiejętności podczas skoku.</li>
+			<li><i>Wyłom</i>: zaktualizowano efekty cząsteczkowe.</li>
+			<li><i>Harpun Mieszkańca Rafy</i>: od teraz można wykonać inne działanie, będąc przyczepionym do powierzchni, by natychmiastowo anulować przyczepienie.</li>"
+
+		"Citadel_PatchNotes_HeroLabs_hero_slork_3" "<b>01.11.2024</b><br>
+			<li><i>Zdrowie</i>: zmniejszono zyskiwane zdrowie za dar patrona z 41 do 36 pkt.</li>
+			<li><i>Broń</i>: zmniejszono obrażenia od śruciny z 4,5 do 4 pkt.</li>
+			<li><i>Broń</i>: skrócono skuteczny zasięg z 18 do 16 metrów.</li>
+			<li><i>Parzący Plusk</i>: zmniejszono zyskiwane obrażenia od broni na sekundę z 8% do 7%.</li>
+			<li><i>Upuszczanie Krwi Fathoma</i>: zaktualizowano umiejętność, by miała takie same wartości, co ostatnia wersja Upuszczania Krwi Shiva.</li>"
+
+		"Citadel_PatchNotes_HeroLabs_hero_slork_4" "<b>08.11.2024</b><br>
+			<li><b>Nowa umiejętność</b>: <i>Zasadzka Drapieżcy.</i></li>
+			<li><i>Upuszczanie Krwi Fathoma<i> zostało zastąpione przez <i>Harpun Mieszkańca Rafy</i>.</li>
+			<li><i>Harpun Mieszkańca Rafy</i>: zyskuje 2 ładunku po przyczepieniu się do powierzchni.</li>
+			<li><i>Harpun Mieszkańca Rafy</i>: nie można już rzucać na ziemię.</li>
+			<li><i>Harpun Mieszkańca Rafy</i>: od teraz nie będzie rzucany, gdy wskazana powierzchnia jest zbyt blisko.</li>
+			<li><i>Harpun Mieszkańca Rafy</i>: od teraz nie będzie przerywać niewidzialności po rzucie.</li>
+			<li><i>Harpun Mieszkańca Rafy</i>: aktywuje niewidzialność z Zasadzki Drapieżcy po rzucie.</li>
+			<li><i>Harpun Mieszkańca Rafy</i>: od teraz czas oczekiwania zaczyna być odliczany po odczepieniu się od powierzchni.</li>
+			<li><i>Harpun Mieszkańca Rafy</i>: nie ma już pasywnej regeneracji zdrowia.</li>
+			<li><i>Harpun Mieszkańca Rafy</i>: nie ma już pasywnej niewidzialności.</li>"
+
+		"Citadel_PatchNotes_HeroLabs_hero_slork_5" "<b>21.11.2024</b><br>
+			<li><i>Broń</i>: zmniejszono zyskiwane obrażenia na pocisk za dar patrona z 0,57 do 0,35 pkt.</li>
+			<li><i>Zasadzka Drapieżcy</i>: zaktualizowano cząsteczki.</li>"
+
+		"Citadel_PatchNotes_HeroLabs_hero_slork_6" "<b>06.12.2024</b><br>
+			<li><i>Parzący Plusk</i>: zaktualizowano cząsteczki.</li>
+			<li><i>Zasadzka Drapieżcy</i>: dodano wodny efekt graficzny wyświetlany na ekranie wrogów, którzy zostaną unieruchomieni.</li>
+			<li><i>Zasadzka Drapieżcy</i>: od teraz pocisk ma promień 2,5 m.</li>"
+
+		"Citadel_PatchNotes_HeroLabs_hero_slork_7" "<b>17.12.2024</b><br>
+			<li>Dodano domyślny schemat z przedmiotami.</li>
+			<li>Zaktualizowano i ulepszono efekty dźwiękowe dla wszystkich umiejętności.</li>"
+
+
+		//-----------------------------------------------------------------------------
+		// hero_viper
+		//-----------------------------------------------------------------------------
+		"Citadel_PatchNotes_HeroLabs_hero_viper_1" "<b>24.10.2024</b><br>
+			<li>Dodano bohaterkę do laboratoriów bohaterów.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_viper_2" "<b>29.10.2024</b><br>
+			<li><i>Ostrze z Hakiem</i> zostało zastąpione przez <i>Wijący Sztylet</i>.</li>
+			<li><i>Śmiertelna Trucizna</i>: od teraz może obejmować za cel tylko wrogich bohaterów.</li>
+			<li><i>Śmiertelna Trucizna</i>: ulepszono efekty graficzne.</li>
+			<li><i>Pełznięcie</i>: od teraz jest to domyślnie wybierana umiejętność na 1. poziomie postaci.</li>
+			<li><i>Pełznięcie</i>: zmieniono 1. ulepszenie na +25% do dystansu ślizgu, 2. ulepszenie na +2 pkt. wytrzymałości oraz 3. ulepszenie na +30% odporności spirytualnej i na naboje.</li>
+			<li><i>Skamienienie</i>: wydłużono opóźnienie przed detonacją z 0,6 do 1 sekundy.</li>
+			<li><i>Skamienienie</i>: ulepszono efekty graficzne i dźwiękowe oraz ruch kamery po przemianie w kamień.</li>
+			<li><i>Skamienienie</i>: od teraz ilość blokowanych obrażeń skaluje się z mocą spirytualną.</li>
+			<li><i>Skamienienie</i>: już nie można użyć, będąc w powietrzu.</li>
+			<li><i>Skamienienie</i>: od teraz przemiana jest prawidłowo blokowana przez Nie do Powstrzymania.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_viper_3" "<b>21.11.2024</b><br>
+			<li><i>Skamienienie</i> zostało zastąpione <i>Petryfikującym Bolasem</i>.</li>
+			<li><i>Petryfikujący Bolas</i>: wprowadzono zmiany wizualne pocisku.</li>
+			<li><i>Wijący Sztylet</i>: nie przerywa już ślizgu.</li>
+			<li><i>Wijący Sztylet</i>: wprowadzono zmiany pocisku oraz uderzenia, by ulepszyć widoczność.</li>
+			<li><i>Śmiertelna Trucizna</i>: od teraz nakłada efekt na ekran.</li>
+			<li><i>Broń:</i> zredukowano obrażenia z 12 do 11 pkt.</li>
+			<li><i>Broń:</i> wprowadzono zmiany smug strzałów, by poprawić widoczność przy wysokiej szybkostrzelności.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_viper_4" "<b>26.11.2024</b><br>
+			<li><i>Broń:</i> zmniejszono obrażenia z 11 do 9 pkt.</li>
+			<li><i>Broń:</i> zwiększono prędkość naboju z 81 m/s do 411 m/s.</li>
+			<li><i>Broń:</i> zwiększono pojemność magazynka z 18 do 24 pkt.</li>
+			<li><i>Petryfikujący Bolas</i>: zwiększono promień pocisku z 30 do 45 jednostek.</li>
+			<li>Zmniejszono zdrowie zyskiwane za dar patrona z 35 do 30 pkt.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_viper_5" "<b>06.12.2024</b><br>
+			<li>Zwiększono rozmiar modelu o 15%.</li>"
+
+		//-----------------------------------------------------------------------------
+		// hero_magician
+		//-----------------------------------------------------------------------------
+		"Citadel_PatchNotes_HeroLabs_hero_magician_1" "<b>24.10.2024</b><br>
+			<li>Dodano bohatera do laboratoriów bohaterów.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_magician_2" "<b>29.10.2024</b><br>
+			<li><i>Broń:</i> od teraz prawidłowo ma skuteczny zasięg.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_magician_3" "<b>07.11.2024</b><br>
+			<li>Od teraz ma umiejętność ostateczną – <i>Wielki Finał!</i></li>
+			<li><i>Broń</i>: zwiększono liczbę nabojów z 20 do 22.</li>
+			<li><i>Irytujący Grom</i>: od teraz nakłada 20% spowolnienie szybkostrzelności zamiast spowolnienia ruchu.</li>
+			<li><i>Irytujący Grom</i>: zwiększono obrażenia ze 100 do 120 pkt. oraz skalowanie spirytualizmu z 1,2 do 1,4 pkt.</li>
+			<li><i>Irytujący Grom</i>: wydłużono czas trwania osłabienia z 2 do 5 s.</li>
+			<li><i>Irytujący Grom</i>: zwiększono rozdzieranie spirytualizmu z 2. ulepszenia z -15% do -20%.</li>
+			<li><i>Irytujący Grom</i>: od teraz 3. ulepszenie przyznaje zwiększoną szybkość pocisku.</li>
+			<li><i>Irytujący Grom</i>: od teraz ma objaśnienie na interfejsie, gdy zmiana kierunku jest dostępna.</li>
+			<li><i>Widmowa Asystentka</i>: od teraz można rzucić, będąc w powietrzu.</li>
+			<li><i>Królicza Klątwa</i>: nie można już rzucić na sojuszników.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_magician_4" "<b>21.11.2024</b><br>
+			<li><i>Irytujący Grom</i>: od teraz rzucany zawsze wraz z asystentką ze zmniejszonymi obrażeniami.</li>
+			<li><i>Irytujący Grom</i>: zaktualizowano ulepszenia, by pasowały do nowych zachowań.</li>
+			<li><i>Irytujący Grom</i>: zredukowano skalowanie spirytualizmu z 1,4 do 1,2.</li>
+			<li><i>Królicza Klątwa</i>: Magician od teraz zna różnicę między królikami i żabami oraz przemienia cele w prawidłowy sposób w króliki.</li>
+			<li><i>Królicza Klątwa</i>: nie można już rzucić na siebie.</li>
+			<li><i>Królicza Klątwa</i>: od teraz nakłada ograniczenie maksymalnej szybkości ruchu zamiast ją zwiększać.</li>
+			<li><i>Królicza Klątwa</i>: od teraz 3. ulepszenie nakłada klątwę z pełnym czasem trwania na wszystkie cele w swoim promieniu.</li>
+			<li><i>Widmowa Asystentka</i>: od teraz przeładowuje twoją broń po rzuceniu.</li>
+			<li><i>Widmowa Asystentka</i>: od teraz wykonuje wystrzały w serii 2 kul.</li>
+			<li><i>Widmowa Asystentka</i>: zredukowano obrażenia spirytualne z 1 × 60 przy skalowaniu 0,5 do 2 × 30 przy skalowaniu 0,3.</li>
+			<li><i>Widmowa Asystentka</i>: od teraz smugi wyglądają jak te przy strzałach z broni.</li>
+			<li><i>Widmowa Asystentka</i>: ulepszono wyszukiwanie celów.</li>
+			<li><i>Widmowa Asystentka</i>: naprawiono błąd powodujący, że czasami nie dało się zmienić kierunku gromów po rzuceniu ich przez asystentkę.</li>
+			<li><i>Widmowa Asystentka</i>: uczyniono przejście kamery przy teleportacji płynniejszym.</li>
+			<li><i>Widmowa Asystentka</i>: zmniejszono zasięg rzutu z 20 do 15 m.</li>
+			<li><i>Widmowa Asystentka</i>: zaktualizowano ulepszenia, by pasowały do nowych zachowań.</li>"
+
+		//-----------------------------------------------------------------------------
+		// hero_operative
+		//-----------------------------------------------------------------------------
+		"Citadel_PatchNotes_HeroLabs_hero_operative_1" "<b>06.12.2024</b><br>
+			<li>Dodano bohatera do laboratoriów bohaterów.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_operative_2" "<b>17.12.2024</b><br>
+			<li>Dodano domyślny schemat z przedmiotami.</li>"
+
+		}
+}

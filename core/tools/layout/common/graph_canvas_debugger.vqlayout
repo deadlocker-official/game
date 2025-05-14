@@ -1,0 +1,108 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	windowTitle = "Debug Graph Canvas"
+	actions = 
+	[
+		{
+			_class="CQBindableCommandAction"
+			name = "perf_refresh_tree"
+			binding="debugger:PerfRefresh"
+			text = "Refresh"
+			mode="COMMAND_TEXT_MODE_BUTTON"
+		},
+		{
+			_class="CQBindableCommandAction"
+			name = "perf_show_gather_styles"
+			binding="debugger:PerfShowGatherStyles"
+			text = "Visualize Gather Styles"
+			mode="COMMAND_TEXT_MODE_BUTTON"
+		},
+		{
+			_class="CQBindableCommandAction"
+			name = "perf_show_resolve_styles"
+			binding="debugger:PerfShowResolveStyles"
+			text = "Visualize Resolve Styles"
+			mode="COMMAND_TEXT_MODE_BUTTON"
+		},
+		{
+			_class="CQBindableCommandAction"
+			name = "perf_show_layout"
+			binding="debugger:PerfShowLayout"
+			text = "Visualize Layout"
+			mode="COMMAND_TEXT_MODE_BUTTON"
+		},
+	]
+
+	vbox = 
+	[
+		{
+			hbox =
+			[
+				{
+					_class="QLabel"
+					text="%num_items"
+					indent=10
+					fixed_height=32
+					fixed_width=125
+					background=[0,0,0]
+					foreground = [200, 200, 200]
+				},
+				{
+					_class = "QToolBar"
+					actions = 
+					[
+						"perf_refresh_tree",
+						{ separator = true },
+						"perf_show_gather_styles",
+						"perf_show_resolve_styles",
+						"perf_show_layout",
+						{ separator = true },
+					]
+				}
+			]
+		},
+		{
+			hbox =
+			[
+				{
+					_class = "QSplitterHorizontal"
+					name = "splitter"
+					children =
+					[
+						{
+							_class = "CQFilteredTreeWidget"
+							name = "tree"
+							stretch = 1
+						},
+						{
+							_class = "QWidget"
+							stretch = 1
+							vbox =
+							[
+								{ _class = "CQGCD_CommonInfo" name = "common_info" },
+								{
+									_class="QTabWidget"
+									stretch=1
+									tabs=
+									{
+										"Active Styles"=
+										{
+											_class = "CQGCD_ActiveStyles"
+											name = "active_styles"
+										}
+										"All Properties"=
+										{
+											_class = "CQGCD_AllProperties"
+											name = "all_properties"
+										}
+									}
+								},
+								{ _class="QPushButton" text="Copy Unittest Info" connections=[ { signal="clicked()" dest="!root" slot="OnCopy()" }, ] },
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
